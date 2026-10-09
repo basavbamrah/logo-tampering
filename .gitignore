@@ -1,0 +1,7 @@
+.vscode/
+*.docx
+*.zip
+candidate_package/
+output/
+__pycache__/
+*.pyc

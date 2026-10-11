@@ -1,0 +1,5 @@
+# App + ONNX accuracy check (no PyTorch needed). Tested with Python 3.12.
+opencv-contrib-python-headless==5.0.0.93
+numpy==2.5.2
+onnxruntime==1.31.0
+streamlit==1.65.0

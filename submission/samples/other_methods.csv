@@ -1,0 +1,51 @@
+image,aligned,cut_pct,difference_map_worst_part_pct,colour_flag,other_methods_flagging
+001,True,0.0,0.0,False,none
+002,True,0.0,0.0,False,none
+003,True,0.0,0.0,False,none
+004,True,0.0,0.0,False,none
+005,True,0.0,0.0,False,none
+006,True,0.0,0.0,False,none
+007,True,0.0,0.0,False,none
+008,True,0.0,0.0,False,none
+009,True,0.0,5.19,False,difference map
+010,True,0.0,0.0,False,none
+011,True,0.0,5.13,False,difference map
+012,True,0.0,0.0,False,none
+013,True,5.5,0.03,False,cut-off
+014,True,0.0,0.0,False,none
+015,True,0.0,0.0,False,none
+016,True,11.9,0.01,False,cut-off
+017,True,0.0,0.0,False,none
+018,True,0.0,0.0,False,none
+019,True,0.0,0.0,False,none
+020,True,0.0,2.11,False,difference map
+021,True,0.0,0.0,False,none
+022,True,0.0,0.0,True,colour
+023,True,0.0,0.0,False,none
+024,True,0.0,0.0,False,none
+025,True,0.0,3.31,False,difference map
+026,True,0.0,0.0,False,none
+027,True,0.0,0.0,False,none
+028,True,0.0,0.0,True,colour
+029,False,,,,none
+030,True,0.0,5.02,False,difference map
+031,True,0.0,0.0,False,none
+032,True,0.0,0.0,False,none
+033,True,0.0,0.0,True,colour
+034,True,0.0,0.0,False,none
+035,True,0.0,0.0,False,none
+036,True,0.0,0.0,False,none
+037,True,2.4,0.01,False,cut-off
+038,True,0.0,0.0,True,colour
+039,True,0.0,0.0,False,none
+040,True,0.0,0.0,False,none
+041,True,0.0,16.13,False,difference map
+042,True,0.0,0.0,False,none
+043,True,0.0,0.0,False,none
+044,True,0.0,0.0,False,none
+045,True,0.0,0.0,False,none
+046,True,0.0,0.0,False,none
+047,True,0.0,0.0,False,none
+048,True,0.0,0.0,False,none
+049,True,0.0,0.0,False,none
+050,True,0.0,0.0,False,none

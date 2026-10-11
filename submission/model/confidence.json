@@ -1,0 +1,70 @@
+{
+ "source": "../data/synth_v2 (test sets, aligned crops), labels known",
+ "all_test_sets": {
+  "pairs": 1688,
+  "share_tampered_in_data": 0.4934834123222749,
+  "tampered_band": {
+   "pairs": 729,
+   "right": 0.9492455418381345
+  },
+  "genuine_band": {
+   "pairs": 423,
+   "right": 0.9196217494089834
+  },
+  "dont_know_band": {
+   "pairs": 536,
+   "share_tampered": 0.19962686567164178
+  }
+ },
+ "per_test_set": {
+  "multi-font": {
+   "pairs": 653,
+   "share_tampered_in_data": 0.48238897396630936,
+   "tampered_band": {
+    "pairs": 272,
+    "right": 0.9448529411764706
+   },
+   "genuine_band": {
+    "pairs": 170,
+    "right": 0.9235294117647059
+   },
+   "dont_know_band": {
+    "pairs": 211,
+    "share_tampered": 0.2132701421800948
+   }
+  },
+  "unseen font (Lato)": {
+   "pairs": 325,
+   "share_tampered_in_data": 0.556923076923077,
+   "tampered_band": {
+    "pairs": 150,
+    "right": 0.96
+   },
+   "genuine_band": {
+    "pairs": 60,
+    "right": 0.9
+   },
+   "dont_know_band": {
+    "pairs": 115,
+    "share_tampered": 0.26956521739130435
+   }
+  },
+  "NORVIA": {
+   "pairs": 710,
+   "share_tampered_in_data": 0.47464788732394364,
+   "tampered_band": {
+    "pairs": 307,
+    "right": 0.9478827361563518
+   },
+   "genuine_band": {
+    "pairs": 193,
+    "right": 0.9222797927461139
+   },
+   "dont_know_band": {
+    "pairs": 210,
+    "share_tampered": 0.14761904761904762
+   }
+  }
+ },
+ "note": "synthetic test data, about half tampered; on real photos the share of tampered logos is unknown, so these rates are a guide, not a guarantee"
+}

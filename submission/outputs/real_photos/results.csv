@@ -1,0 +1,51 @@
+image,decision,p_tampered,p_ref1,p_ref2,p_ref3,confidence,cut_pct,inliers,ecc,top_tamper_type,other_methods_flagging,methods_agreeing_tampered
+001,DON'T KNOW,0.1169,0.155,0.1292,0.0664,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,47,0.9838,none,none,0
+002,DON'T KNOW,0.0916,0.1411,0.0972,0.0364,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,61,0.9711,none,none,0
+003,DON'T KNOW,0.1728,0.1254,0.307,0.0858,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,54,0.9645,none,none,0
+004,DON'T KNOW,0.2741,0.2329,0.4452,0.1441,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,48,0.9859,none,none,0
+005,GENUINE,0.0354,0.034,0.0453,0.0268,right for 92% of the 423 synthetic test pairs that landed in this band,0.0,117,0.9686,none,none,0
+006,DON'T KNOW,0.2805,0.1908,0.519,0.1315,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,73,0.9869,none,none,0
+007,DON'T KNOW,0.0698,0.0905,0.0872,0.0317,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,93,0.9634,none,none,0
+008,DON'T KNOW,0.0534,0.0502,0.0765,0.0337,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,124,0.9889,none,none,0
+009,TAMPERED,0.9994,0.9995,0.9995,0.9992,right for 95% of the 729 synthetic test pairs that landed in this band,0.0,55,0.9431,font_swap,difference map,2
+010,DON'T KNOW,0.1413,0.1903,0.1541,0.0796,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,71,0.9857,none,none,0
+011,TAMPERED,0.9993,0.9995,0.9994,0.999,right for 95% of the 729 synthetic test pairs that landed in this band,0.0,69,0.937,stretch,difference map,2
+012,DON'T KNOW,0.1745,0.1061,0.2262,0.1912,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,41,0.9274,none,none,0
+013,TAMPERED + CUT OFF,1.0,1.0,1.0,1.0,right for 95% of the 729 synthetic test pairs that landed in this band,5.51,57,0.9479,cut,cut-off,2
+014,GENUINE,0.0494,0.0447,0.0693,0.0341,right for 92% of the 423 synthetic test pairs that landed in this band,0.0,70,0.9744,none,none,0
+015,DON'T KNOW,0.118,0.2284,0.0805,0.045,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,50,0.9641,none,none,0
+016,TAMPERED + CUT OFF,1.0,1.0,1.0,1.0,right for 95% of the 729 synthetic test pairs that landed in this band,11.86,64,0.9911,cut,cut-off,2
+017,DON'T KNOW,0.0662,0.0638,0.0878,0.0469,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,89,0.978,none,none,0
+018,DON'T KNOW,0.0836,0.0606,0.144,0.0464,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,61,0.981,none,none,0
+019,DON'T KNOW,0.0697,0.0936,0.0644,0.0512,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,52,0.9602,none,none,0
+020,TAMPERED,0.9987,0.9991,0.9982,0.9989,right for 95% of the 729 synthetic test pairs that landed in this band,0.0,96,0.9479,stretch,difference map,2
+021,TAMPERED,1.0,1.0,1.0,1.0,right for 95% of the 729 synthetic test pairs that landed in this band,0.0,93,0.9842,cut,none,1
+022,DON'T KNOW,0.4033,0.3977,0.5121,0.3002,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,53,0.9533,none,colour,1
+023,DON'T KNOW,0.3308,0.2824,0.5328,0.1773,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,49,0.9735,none,none,0
+024,DON'T KNOW,0.0684,0.057,0.0952,0.0529,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,61,0.9706,none,none,0
+025,TAMPERED,0.9994,0.9995,0.9994,0.9993,right for 95% of the 729 synthetic test pairs that landed in this band,0.0,54,0.9609,font_swap,difference map,2
+026,DON'T KNOW,0.0887,0.076,0.1468,0.0432,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,69,0.9796,none,none,0
+027,TAMPERED,0.9912,0.9986,0.9889,0.986,right for 95% of the 729 synthetic test pairs that landed in this band,0.0,87,0.9814,recolour,none,1
+028,TAMPERED,1.0,1.0,1.0,1.0,right for 95% of the 729 synthetic test pairs that landed in this band,0.0,36,0.9878,recolour,colour,2
+029,CAN'T VERIFY,,,,,no decision,,9,,,none,
+030,TAMPERED,0.9995,0.9995,0.9996,0.9995,right for 95% of the 729 synthetic test pairs that landed in this band,0.0,70,0.9506,stretch,difference map,2
+031,DON'T KNOW,0.3754,0.4173,0.4289,0.2801,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,65,0.9887,none,none,0
+032,DON'T KNOW,0.0651,0.0685,0.0733,0.0533,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,71,0.9899,none,none,0
+033,TAMPERED,1.0,0.9999,1.0,0.9999,right for 95% of the 729 synthetic test pairs that landed in this band,0.0,97,0.978,recolour,colour,2
+034,DON'T KNOW,0.0781,0.0731,0.1266,0.0347,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,34,0.9771,none,none,0
+035,DON'T KNOW,0.3339,0.3571,0.4515,0.1931,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,56,0.9877,none,none,0
+036,DON'T KNOW,0.082,0.1339,0.0619,0.0501,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,35,0.9858,none,none,0
+037,TAMPERED + CUT OFF,1.0,1.0,1.0,1.0,right for 95% of the 729 synthetic test pairs that landed in this band,2.36,66,0.9898,cut,cut-off,2
+038,TAMPERED,0.9997,0.9999,0.9997,0.9996,right for 95% of the 729 synthetic test pairs that landed in this band,0.0,69,0.986,recolour,colour,2
+039,DON'T KNOW,0.0596,0.0502,0.0925,0.036,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,57,0.992,none,none,0
+040,DON'T KNOW,0.1523,0.1097,0.2501,0.0971,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,68,0.9875,none,none,0
+041,TAMPERED,0.9998,0.9999,0.9999,0.9997,right for 95% of the 729 synthetic test pairs that landed in this band,0.0,37,0.924,stretch,difference map,2
+042,DON'T KNOW,0.0838,0.0867,0.1155,0.0493,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,45,0.9205,none,none,0
+043,TAMPERED,0.8923,0.9736,0.8737,0.8295,right for 95% of the 729 synthetic test pairs that landed in this band,0.0,69,0.9892,recolour,none,1
+044,DON'T KNOW,0.0539,0.061,0.0691,0.0315,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,68,0.9909,none,none,0
+045,DON'T KNOW,0.1237,0.1594,0.1108,0.1008,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,61,0.9811,none,none,0
+046,DON'T KNOW,0.0548,0.0495,0.0881,0.0269,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,60,0.988,none,none,0
+047,DON'T KNOW,0.0651,0.0582,0.0805,0.0566,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,68,0.9861,none,none,0
+048,DON'T KNOW,0.0935,0.0675,0.1521,0.0609,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,80,0.9697,none,none,0
+049,DON'T KNOW,0.1309,0.1223,0.1911,0.0792,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,52,0.9799,none,none,0
+050,DON'T KNOW,0.3629,0.3976,0.4988,0.1921,"no call: 20% of the 536 synthetic test pairs in this band were tampered (out of 1688 pairs, about half tampered)",0.0,41,0.9636,none,none,0

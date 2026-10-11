@@ -1,0 +1,37 @@
+{
+ "model": "e14_consistent",
+ "architecture": "siamese_diff, depth 1 (ResNet-18 stem + stage 1, shared)",
+ "input_size_wh": [
+  448,
+  128
+ ],
+ "mean": [
+  0.48500001430511475,
+  0.4560000002384186,
+  0.4059999883174896
+ ],
+ "std": [
+  0.2290000021457672,
+  0.2240000069141388,
+  0.22499999403953552
+ ],
+ "threshold_tampered": 0.49255239963531494,
+ "threshold_genuine": 0.05282871425151825,
+ "classes": [
+  "none",
+  "stretch",
+  "recolour",
+  "respace",
+  "glyph_swap",
+  "font_swap",
+  "overlap",
+  "cut"
+ ],
+ "heatmap_scale": 0.3899661898612976,
+ "ref_logo_box": [
+  140,
+  220,
+  1060,
+  480
+ ]
+}

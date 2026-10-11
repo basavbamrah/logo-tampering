@@ -1,0 +1,7 @@
+# Only to re-export the ONNX model or to compare against PyTorch (scripts/export_onnx.py,
+# scripts/evaluate_onnx.py --pytorch). Includes everything in requirements.txt.
+-r requirements.txt
+torch==2.14.1
+torchvision==0.29.1
+onnx==1.23.2
+onnxscript==0.7.2

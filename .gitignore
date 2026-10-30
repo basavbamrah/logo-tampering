@@ -1,7 +1,7 @@
 .vscode/
 *.docx
 *.zip
-candidate_package/
+# candidate_package/
 output/
 __pycache__/
 *.pyc 

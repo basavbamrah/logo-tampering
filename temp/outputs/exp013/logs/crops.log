@@ -1,0 +1,22 @@
+D2: registered 4962/5000
+   cut         342/357
+   font_swap   349/357
+   glyph_swap  356/357
+   none        2491/2500
+   overlap     354/357
+   recolour    357/357
+   respace     356/357
+   stretch     357/358
+D1: registered 4923/5000
+   cut         329/357
+   font_swap   340/357
+   glyph_swap  356/357
+   none        2487/2500
+   overlap     346/357
+   recolour    354/357
+   respace     356/357
+   stretch     355/358
+
+real	11m56.023s
+user	106m59.702s
+sys	34m44.247s

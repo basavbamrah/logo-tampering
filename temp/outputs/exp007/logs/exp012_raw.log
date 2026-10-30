@@ -1,0 +1,97 @@
+run exp012_raw: train 3982 pairs (66 D2 skipped: not registered), device cuda
+siamese_diff: 0.46 M trainable parameters, input (448, 192)
+loaded 3982 training pairs into CPU (pinned) (1960 MB) in 4s
+/home/valere/Desktop/temp/src/train_pairs.py:379: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  scheduler.step()
+epoch  1 | train loss 1.2026 | train AUC 0.6726 | val AUC 0.6839 acc 0.626 | test D2 AUC 0.6487 | unseen-font AUC nan | 17s, GPU 1337 MB
+epoch  2 | train loss 1.0027 | train AUC 0.7115 | val AUC 0.7169 acc 0.658 | test D2 AUC 0.6874 | unseen-font AUC nan | 17s, GPU 1337 MB
+epoch  3 | train loss 0.9168 | train AUC 0.7529 | val AUC 0.7433 acc 0.708 | test D2 AUC 0.7083 | unseen-font AUC nan | 17s, GPU 1337 MB
+epoch  4 | train loss 0.8554 | train AUC 0.8054 | val AUC 0.7334 acc 0.704 | test D2 AUC 0.7583 | unseen-font AUC nan | 17s, GPU 1337 MB
+epoch  5 | train loss 0.8048 | train AUC 0.8444 | val AUC 0.7489 acc 0.724 | test D2 AUC 0.7233 | unseen-font AUC nan | 17s, GPU 1337 MB
+epoch  6 | train loss 0.7488 | train AUC 0.8776 | val AUC 0.7580 acc 0.654 | test D2 AUC 0.7463 | unseen-font AUC nan | 17s, GPU 1337 MB
+epoch  7 | train loss 0.6797 | train AUC 0.8754 | val AUC 0.7489 acc 0.716 | test D2 AUC 0.7267 | unseen-font AUC nan | 17s, GPU 1337 MB
+epoch  8 | train loss 0.5965 | train AUC 0.9287 | val AUC 0.7511 acc 0.712 | test D2 AUC 0.7385 | unseen-font AUC nan | 17s, GPU 1337 MB
+epoch  9 | train loss 0.5075 | train AUC 0.9521 | val AUC 0.7567 acc 0.712 | test D2 AUC 0.7484 | unseen-font AUC nan | 17s, GPU 1337 MB
+epoch 10 | train loss 0.4171 | train AUC 0.9662 | val AUC 0.7657 acc 0.720 | test D2 AUC 0.7480 | unseen-font AUC nan | 17s, GPU 1337 MB
+epoch 11 | train loss 0.3472 | train AUC 0.9738 | val AUC 0.7546 acc 0.737 | test D2 AUC 0.7593 | unseen-font AUC nan | 17s, GPU 1337 MB
+epoch 12 | train loss 0.2985 | train AUC 0.9758 | val AUC 0.7604 acc 0.720 | test D2 AUC 0.7537 | unseen-font AUC nan | 17s, GPU 1337 MB
+epoch 13 | train loss 0.2628 | train AUC 0.9791 | val AUC 0.7612 acc 0.724 | test D2 AUC 0.7536 | unseen-font AUC nan | 17s, GPU 1337 MB
+epoch 14 | train loss 0.2486 | train AUC 0.9775 | val AUC 0.7658 acc 0.733 | test D2 AUC 0.7551 | unseen-font AUC nan | 17s, GPU 1337 MB
+epoch 15 | train loss 0.2393 | train AUC 0.9771 | val AUC 0.7659 acc 0.728 | test D2 AUC 0.7538 | unseen-font AUC nan | 17s, GPU 1337 MB
+best epoch 15 (val AUC 0.7659); threshold at 5 % false alarms = 0.6371
+{
+  "val_D2": {
+    "n": 243,
+    "auc": 0.7658983050847458,
+    "accuracy_at_0.5": 0.7283950617283951,
+    "false_alarm_rate_at_threshold": 0.05084745762711865,
+    "kind_accuracy_on_tampered": 0.392,
+    "caught_per_tamper": {
+      "stretch": {
+        "n": 17,
+        "caught": 0.11764705882352941
+      },
+      "recolour": {
+        "n": 15,
+        "caught": 0.13333333333333333
+      },
+      "respace": {
+        "n": 12,
+        "caught": 0.08333333333333333
+      },
+      "glyph_swap": {
+        "n": 21,
+        "caught": 0.23809523809523808
+      },
+      "font_swap": {
+        "n": 22,
+        "caught": 0.9545454545454546
+      },
+      "overlap": {
+        "n": 24,
+        "caught": 0.9583333333333334
+      },
+      "cut": {
+        "n": 14,
+        "caught": 0.8571428571428571
+      }
+    }
+  },
+  "test_D2": {
+    "n": 206,
+    "auc": 0.7538425271098539,
+    "accuracy_at_0.5": 0.7378640776699029,
+    "false_alarm_rate_at_threshold": 0.0380952380952381,
+    "kind_accuracy_on_tampered": 0.33663366336633666,
+    "caught_per_tamper": {
+      "stretch": {
+        "n": 15,
+        "caught": 0.13333333333333333
+      },
+      "recolour": {
+        "n": 13,
+        "caught": 0.15384615384615385
+      },
+      "respace": {
+        "n": 22,
+        "caught": 0.045454545454545456
+      },
+      "glyph_swap": {
+        "n": 9,
+        "caught": 0.5555555555555556
+      },
+      "font_swap": {
+        "n": 14,
+        "caught": 1.0
+      },
+      "overlap": {
+        "n": 15,
+        "caught": 0.9333333333333333
+      },
+      "cut": {
+        "n": 13,
+        "caught": 0.6153846153846154
+      }
+    }
+  }
+}

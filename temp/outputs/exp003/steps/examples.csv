@@ -1,0 +1,9 @@
+id,tamper,target,detail,magnitude,unit,photo_max_diff_vs_stored,reg_inliers,reg_crop_max_diff_vs_stored,corner_err_px
+D2_00000,none,,,0.0,,0,108,0,0.25
+D2_00001,stretch,icon,y -2.6%,2.643,percent,0,43,0,0.74
+D2_00003,recolour,whole,"-3.7 deg, deltaE 3.2",3.668,hue_deg,0,79,0,0.14
+D2_00005,respace,tagline:B,+4.1px,4.086,px,0,37,0,0.28
+D2_00007,glyph_swap,word:A,A->R in Ubuntu-Bold,0.557,1-IoU,0,48,0,0.84
+D2_00009,font_swap,word,DejaVuSans-Bold->Lato-Bold,14.141,width_pct,0,53,0,19.91
+D2_00011,overlap,word,NET WT 250g,24.768,text_px,0,128,0,0.34
+D2_00013,cut,,,18.976,percent_outside,0,120,0,15.28

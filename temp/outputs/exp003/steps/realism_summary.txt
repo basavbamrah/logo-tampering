@@ -1,0 +1,7 @@
+measure                                                real median [10-90%]    synthetic median [10-90%]
+whole-photo brightness (grey 0-255)                     199.7 [169.9-222.7]          190.4 [146.4-228.5]
+paper brightness near the logo (0-255)                  203.0 [171.0-227.0]          193.0 [152.0-236.1]
+sharpness: Laplacian variance of the logo crop             30.7 [15.6-66.6]              19.4 [5.0-52.7]
+ink hue (deg)                                           154.0 [150.0-158.0]          152.0 [150.0-156.0]
+ink saturation (0-255)                                  191.0 [160.6-233.8]          192.0 [185.0-196.0]
+RANSAC inliers                                             61.0 [41.0-93.0]            63.0 [32.0-110.0]

@@ -1,0 +1,51 @@
+image,e14_consistent_p,e14_consistent_decision,runs_saying_tampered
+001,0.1166,don't know,0/1
+002,0.0914,don't know,0/1
+003,0.1725,don't know,0/1
+004,0.2737,don't know,0/1
+005,0.0353,genuine,0/1
+006,0.2804,don't know,0/1
+007,0.0698,don't know,0/1
+008,0.0534,don't know,0/1
+009,0.9994,tampered,1/1
+010,0.1416,don't know,0/1
+011,0.9993,tampered,1/1
+012,0.1746,don't know,0/1
+013,1.0,tampered + flagged: logo partly outside the photo (5.5 % of the ink),1/1
+014,0.0494,genuine,0/1
+015,0.1182,don't know,0/1
+016,1.0,tampered + flagged: logo partly outside the photo (11.9 % of the ink),1/1
+017,0.0662,don't know,0/1
+018,0.0835,don't know,0/1
+019,0.0698,don't know,0/1
+020,0.9987,tampered,1/1
+021,1.0,tampered,1/1
+022,0.4037,don't know,0/1
+023,0.3303,don't know,0/1
+024,0.0684,don't know,0/1
+025,0.9994,tampered,1/1
+026,0.0885,don't know,0/1
+027,0.9912,tampered,1/1
+028,1.0,tampered,1/1
+029,,flagged: can't register,0/1
+030,0.9995,tampered,1/1
+031,0.3749,don't know,0/1
+032,0.0651,don't know,0/1
+033,1.0,tampered,1/1
+034,0.0781,don't know,0/1
+035,0.3341,don't know,0/1
+036,0.0822,don't know,0/1
+037,1.0,tampered + flagged: logo partly outside the photo (2.4 % of the ink),1/1
+038,0.9997,tampered,1/1
+039,0.0595,don't know,0/1
+040,0.1524,don't know,0/1
+041,0.9998,tampered,1/1
+042,0.0838,don't know,0/1
+043,0.8922,tampered,1/1
+044,0.0538,don't know,0/1
+045,0.1238,don't know,0/1
+046,0.0547,don't know,0/1
+047,0.0652,don't know,0/1
+048,0.0934,don't know,0/1
+049,0.1308,don't know,0/1
+050,0.3616,don't know,0/1

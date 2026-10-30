@@ -1,0 +1,10 @@
+font,mean_iou_wordmark,mean_iou_tagline,mean_abs_width_err_pct,path
+DejaVuSans-Bold,0.9804,0.9374,0.82,/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
+OpenSans-Bold,0.8131,0.8111,10.98,"/home/valere/Desktop/temp/data/fonts/opensans/OpenSans[wdth,wght].ttf"
+NotoSans-Bold,0.7982,0.8022,16.17,"/home/valere/Desktop/temp/data/fonts/notosans/NotoSans[wdth,wght].ttf"
+LiberationSans-Bold,0.7939,0.7698,7.83,/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf
+NotoSans-Bold-system,0.7935,0.806,16.41,/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf
+Ubuntu-Bold,0.7843,0.8086,8.98,/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf
+Roboto-Bold,0.7586,0.7763,11.31,"/home/valere/Desktop/temp/data/fonts/roboto/Roboto[wdth,wght].ttf"
+Lato-Bold,0.7303,0.7517,10.69,/home/valere/Desktop/temp/data/fonts/lato/Lato-Bold.ttf
+PTSans-Bold,0.6756,0.7254,16.78,/home/valere/Desktop/temp/data/fonts/ptsans/PT_Sans-Web-Bold.ttf

@@ -1,0 +1,41 @@
+skip sd_base_s1 (already done)
+skip sd_base_s2 (already done)
+skip sd_aug (already done)
+skip sd_drop_wd (already done)
+skip sd_freeze (already done)
+skip sd_depth1 (already done)
+skip sd_depth3 (already done)
+skip sd_focal (already done)
+start sd_kind0: --kind-weight 0
+end   sd_kind0: exit code 0
+start sd_kind1: --kind-weight 1.0
+end   sd_kind1: exit code 0
+start sd_lr1e-4: --lr 1e-4
+end   sd_lr1e-4: exit code 0
+start sd_depth1_s1: --depth 1 --seed 1
+end   sd_depth1_s1: exit code 0
+start sd_depth1_s2: --depth 1 --seed 2
+end   sd_depth1_s2: exit code 0
+start ef_base: --arch early_fusion
+end   ef_base: exit code 0
+start dino_base: --arch dino_frozen
+end   dino_base: exit code 0
+| run | best_epoch | val_auc | test_D2_auc | test_D1_auc | test_unseen_font_D1_auc | D2_stretch | D2_recolour | D2_respace | D2_glyph_swap | D2_font_swap | D2_overlap | D2_cut | D2_false_alarms |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| sd_depth1_s2 | 10 | 0.92 | 0.892 | 0.891 | 0.917 | 0.33 | 0.54 | 0.45 | 0.78 | 1.0 | 1.0 | 1.0 | 0.029 |
+| sd_depth1_s1 | 9 | 0.913 | 0.857 | 0.903 | 0.934 | 0.33 | 0.62 | 0.41 | 0.67 | 1.0 | 1.0 | 1.0 | 0.048 |
+| sd_depth1 | 6 | 0.905 | 0.854 | 0.902 | 0.922 | 0.33 | 0.54 | 0.41 | 0.78 | 1.0 | 1.0 | 1.0 | 0.029 |
+| ef_base | 14 | 0.902 | 0.858 | 0.865 | 0.878 | 0.2 | 0.54 | 0.5 | 0.78 | 1.0 | 1.0 | 1.0 | 0.057 |
+| sd_kind0 | 9 | 0.898 | 0.886 | 0.868 | 0.93 | 0.33 | 0.54 | 0.41 | 0.78 | 1.0 | 1.0 | 1.0 | 0.01 |
+| sd_aug | 7 | 0.896 | 0.884 | 0.87 | 0.918 | 0.33 | 0.69 | 0.45 | 0.89 | 1.0 | 1.0 | 1.0 | 0.038 |
+| sd_base | 6 | 0.896 | 0.827 | 0.844 | 0.928 | 0.2 | 0.54 | 0.18 | 0.78 | 1.0 | 1.0 | 1.0 | 0.048 |
+| sd_drop_wd | 7 | 0.893 | 0.864 | 0.878 | 0.929 | 0.27 | 0.69 | 0.5 | 0.78 | 1.0 | 1.0 | 1.0 | 0.057 |
+| sd_kind1 | 7 | 0.888 | 0.861 | 0.871 | 0.927 | 0.33 | 0.69 | 0.27 | 0.78 | 1.0 | 1.0 | 1.0 | 0.019 |
+| sd_base_cache | 9 | 0.887 | 0.881 | 0.858 | 0.92 | 0.4 | 0.62 | 0.68 | 0.78 | 1.0 | 1.0 | 1.0 | 0.048 |
+| sd_base_s2 | 5 | 0.887 | 0.83 | 0.869 | 0.912 | 0.27 | 0.62 | 0.41 | 0.78 | 1.0 | 1.0 | 1.0 | 0.038 |
+| sd_base_s1 | 11 | 0.884 | 0.88 | 0.856 | 0.925 | 0.33 | 0.69 | 0.5 | 0.78 | 1.0 | 1.0 | 1.0 | 0.038 |
+| sd_depth3 | 9 | 0.877 | 0.865 | 0.861 | 0.898 | 0.33 | 0.54 | 0.41 | 0.78 | 1.0 | 1.0 | 1.0 | 0.048 |
+| sd_focal | 11 | 0.875 | 0.868 | 0.839 | 0.93 | 0.33 | 0.54 | 0.36 | 0.78 | 1.0 | 1.0 | 1.0 | 0.029 |
+| sd_lr1e-4 | 12 | 0.854 | 0.825 | 0.833 | 0.921 | 0.2 | 0.54 | 0.09 | 0.67 | 1.0 | 1.0 | 1.0 | 0.038 |
+| sd_freeze | 7 | 0.845 | 0.792 | 0.84 | 0.848 | 0.33 | 0.0 | 0.23 | 0.67 | 1.0 | 1.0 | 1.0 | 0.038 |
+| dino_base | 2 | 0.783 | 0.752 | 0.794 | 0.815 | 0.13 | 0.0 | 0.09 | 0.11 | 1.0 | 1.0 | 1.0 | 0.048 |

@@ -1,0 +1,171 @@
+run e13_focal: train 6770 pairs (70 D2 skipped: not registered), device cuda
+siamese_diff: 0.46 M trainable parameters, input (448, 192)
+loaded 6770 training pairs into CPU (pinned) (3332 MB) in 12s
+/home/valere/Desktop/temp/src/train_pairs.py:419: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  scheduler.step()
+epoch  1 | train loss 0.8126 | train AUC 0.6151 | val AUC 0.5927 acc 0.580 | test D2 AUC 0.6084 | unseen-font AUC 0.5421 | 30s, GPU 2917 MB
+epoch  2 | train loss 0.6636 | train AUC 0.6121 | val AUC 0.6184 acc 0.587 | test D2 AUC 0.5946 | unseen-font AUC 0.5841 | 29s, GPU 2917 MB
+epoch  3 | train loss 0.6348 | train AUC 0.6191 | val AUC 0.6040 acc 0.556 | test D2 AUC 0.5874 | unseen-font AUC 0.5783 | 29s, GPU 2917 MB
+epoch  4 | train loss 0.6122 | train AUC 0.6809 | val AUC 0.6559 acc 0.601 | test D2 AUC 0.6657 | unseen-font AUC 0.6495 | 29s, GPU 2917 MB
+epoch  5 | train loss 0.5494 | train AUC 0.6707 | val AUC 0.6564 acc 0.629 | test D2 AUC 0.6693 | unseen-font AUC 0.6351 | 29s, GPU 2917 MB
+epoch  6 | train loss 0.5307 | train AUC 0.6813 | val AUC 0.6576 acc 0.593 | test D2 AUC 0.6902 | unseen-font AUC 0.6471 | 29s, GPU 2917 MB
+epoch  7 | train loss 0.5197 | train AUC 0.7076 | val AUC 0.6775 acc 0.633 | test D2 AUC 0.7004 | unseen-font AUC 0.6641 | 29s, GPU 2917 MB
+epoch  8 | train loss 0.5124 | train AUC 0.7115 | val AUC 0.6861 acc 0.631 | test D2 AUC 0.7085 | unseen-font AUC 0.6573 | 29s, GPU 2917 MB
+epoch  9 | train loss 0.5061 | train AUC 0.7072 | val AUC 0.6764 acc 0.630 | test D2 AUC 0.7060 | unseen-font AUC 0.6574 | 29s, GPU 2917 MB
+epoch 10 | train loss 0.4968 | train AUC 0.7115 | val AUC 0.6776 acc 0.637 | test D2 AUC 0.7068 | unseen-font AUC 0.6702 | 29s, GPU 2917 MB
+epoch 11 | train loss 0.4943 | train AUC 0.7213 | val AUC 0.6763 acc 0.635 | test D2 AUC 0.7149 | unseen-font AUC 0.6566 | 29s, GPU 2917 MB
+epoch 12 | train loss 0.4848 | train AUC 0.7384 | val AUC 0.6878 acc 0.641 | test D2 AUC 0.7173 | unseen-font AUC 0.6712 | 29s, GPU 2917 MB
+epoch 13 | train loss 0.4785 | train AUC 0.7355 | val AUC 0.6834 acc 0.633 | test D2 AUC 0.7139 | unseen-font AUC 0.6701 | 29s, GPU 2917 MB
+epoch 14 | train loss 0.4734 | train AUC 0.7403 | val AUC 0.6840 acc 0.638 | test D2 AUC 0.7193 | unseen-font AUC 0.6724 | 29s, GPU 2917 MB
+epoch 15 | train loss 0.4719 | train AUC 0.7403 | val AUC 0.6826 acc 0.643 | test D2 AUC 0.7198 | unseen-font AUC 0.6721 | 29s, GPU 2917 MB
+best epoch 12 (val AUC 0.6878); threshold at 5 % false alarms = 0.4988
+{
+  "val_D1+D2": {
+    "n": 1427,
+    "auc": 0.6878381564212884,
+    "accuracy_at_0.5": 0.6412053258584443,
+    "false_alarm_rate_at_threshold": 0.05106382978723404,
+    "kind_accuracy_on_tampered": 0.2257617728531856,
+    "caught_per_tamper": {
+      "stretch": {
+        "n": 117,
+        "caught": 0.1111111111111111
+      },
+      "recolour": {
+        "n": 107,
+        "caught": 0.056074766355140186
+      },
+      "respace": {
+        "n": 98,
+        "caught": 0.08163265306122448
+      },
+      "glyph_swap": {
+        "n": 79,
+        "caught": 0.0759493670886076
+      },
+      "font_swap": {
+        "n": 113,
+        "caught": 0.17699115044247787
+      },
+      "overlap": {
+        "n": 107,
+        "caught": 1.0
+      },
+      "cut": {
+        "n": 101,
+        "caught": 0.9306930693069307
+      }
+    }
+  },
+  "test_D2": {
+    "n": 710,
+    "auc": 0.7172536415780304,
+    "accuracy_at_0.5": 0.6929577464788732,
+    "false_alarm_rate_at_threshold": 0.005361930294906166,
+    "kind_accuracy_on_tampered": 0.258160237388724,
+    "caught_per_tamper": {
+      "stretch": {
+        "n": 38,
+        "caught": 0.0
+      },
+      "recolour": {
+        "n": 46,
+        "caught": 0.021739130434782608
+      },
+      "respace": {
+        "n": 45,
+        "caught": 0.0
+      },
+      "glyph_swap": {
+        "n": 45,
+        "caught": 0.022222222222222223
+      },
+      "font_swap": {
+        "n": 48,
+        "caught": 0.125
+      },
+      "overlap": {
+        "n": 47,
+        "caught": 1.0
+      },
+      "cut": {
+        "n": 68,
+        "caught": 0.9852941176470589
+      }
+    }
+  },
+  "test_D1": {
+    "n": 653,
+    "auc": 0.641265145111299,
+    "accuracy_at_0.5": 0.6217457886676876,
+    "false_alarm_rate_at_threshold": 0.12130177514792899,
+    "kind_accuracy_on_tampered": 0.2,
+    "caught_per_tamper": {
+      "stretch": {
+        "n": 37,
+        "caught": 0.13513513513513514
+      },
+      "recolour": {
+        "n": 50,
+        "caught": 0.1
+      },
+      "respace": {
+        "n": 55,
+        "caught": 0.14545454545454545
+      },
+      "glyph_swap": {
+        "n": 55,
+        "caught": 0.10909090909090909
+      },
+      "font_swap": {
+        "n": 38,
+        "caught": 0.15789473684210525
+      },
+      "overlap": {
+        "n": 37,
+        "caught": 1.0
+      },
+      "cut": {
+        "n": 43,
+        "caught": 0.9069767441860465
+      }
+    }
+  },
+  "test_unseen_font_D1": {
+    "n": 325,
+    "auc": 0.6711748004910988,
+    "accuracy_at_0.5": 0.6123076923076923,
+    "false_alarm_rate_at_threshold": 0.08333333333333333,
+    "kind_accuracy_on_tampered": 0.15469613259668508,
+    "caught_per_tamper": {
+      "stretch": {
+        "n": 27,
+        "caught": 0.2222222222222222
+      },
+      "recolour": {
+        "n": 37,
+        "caught": 0.10810810810810811
+      },
+      "respace": {
+        "n": 27,
+        "caught": 0.18518518518518517
+      },
+      "glyph_swap": {
+        "n": 25,
+        "caught": 0.2
+      },
+      "font_swap": {
+        "n": 20,
+        "caught": 0.3
+      },
+      "overlap": {
+        "n": 25,
+        "caught": 1.0
+      },
+      "cut": {
+        "n": 20,
+        "caught": 0.85
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+== synthetic NORVIA (F12 crops): 745 genuine, 107 recolour ==
+method     AUC  thr(95% genuine)   caught by hue shift: 3-6 / 6-10 / 10-15 deg   whole-logo / one-part
+raw      0.654             18.43   7% (n=57) / 0% (n=23) / 7% (n=27)   7% / 4%
+paper    0.536             32.84   4% (n=57) / 4% (n=23) / 7% (n=27)   5% / 4%
+hue      0.813              9.64   12% (n=57) / 39% (n=23) / 85% (n=27)   41% / 31%
+
+== real photos (n=49); reference ink hue per part: {'icon': 153.0, 'word': 153.0, 'tagline': 153.3} ==
+raw     flags  2: ['016', '038']
+paper   flags  1: ['016']
+hue     flags  5: ['016', '022', '028', '033', '038']
+model's 'recolour' candidates: 027 raw 10.65 paper 14.31 hue 8.51 (hues 161.5/161.2/161.1); 028 raw 10.87 paper 14.22 hue 12.46 (hues 141.0/140.5/141.1); 033 raw 6.25 paper 8.27 hue 11.29 (hues 142.9/142.2/142.0); 038 raw 18.82 paper 14.3 hue 15.73 (hues 168.4/168.7/167.6)
+real hue difference: median 4.05, 90th pct 9.40; synthetic genuine: median 3.07, 90th pct 7.80

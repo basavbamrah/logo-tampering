@@ -1,0 +1,4 @@
+212e0df1033b292bc7d80c26e8f6d616  outputs/exp001/registration.csv
+12c056d7e7480764fb8111393356ce18  outputs/exp010/diff_scores.csv
+42b254fe93253b85574c540dce5f3dcb  outputs/exp008/real_letter_shifts.csv
+49539242962ca3dcd8c78eec436e7b9d  outputs/exp005/real_colour.csv

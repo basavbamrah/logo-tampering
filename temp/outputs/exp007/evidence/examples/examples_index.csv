@@ -1,0 +1,82 @@
+sheet,split,id,tamper,magnitude,unit,detail,prob_tampered,pred_kind
+correct,test_D2,D2_00015,stretch,2.823,percent,x -2.8%,0.3547,none
+correct,test_D2,D2_00253,stretch,1.039,percent,x +1.0%,0.5162,none
+correct,test_D2,D2_00073,recolour,9.555,hue_deg,"+9.6 deg, deltaE 8.8",0.9944,recolour
+correct,test_D2,D2_00143,recolour,6.771,hue_deg,"+6.8 deg, deltaE 6.3",0.9803,recolour
+correct,test_D2,D2_00145,respace,1.212,px,-1.2px,0.5048,none
+correct,test_D2,D2_00201,respace,4.917,px,+4.9px,1.0,respace
+correct,test_D2,D2_00413,glyph_swap,0.409,1-IoU,R->P in LiberationSans-Bold,0.9999,glyph_swap
+correct,test_D2,D2_00441,glyph_swap,0.356,1-IoU,N->H in Roboto-Bold,1.0,glyph_swap
+correct,test_D2,D2_00051,font_swap,10.823,width_pct,DejaVuSans-Bold->NotoSans-Bold,0.9999,font_swap
+correct,test_D2,D2_00135,font_swap,17.605,width_pct,DejaVuSans-Bold->Roboto-Bold,1.0,font_swap
+correct,test_D2,D2_00039,overlap,22.805,text_px,100% NATURAL,1.0,overlap
+correct,test_D2,D2_00151,overlap,21.864,text_px,BATCH 0921,1.0,overlap
+correct,test_D2,D2_00153,cut,32.167,percent_outside,0.32,1.0,cut
+correct,test_D2,D2_00181,cut,27.926,percent_outside,0.28,0.9998,cut
+correct,test_D2,D2_00016,none,0.0,,,0.0779,none
+correct,test_D2,D2_00042,none,0.0,,,0.0549,none
+missed,test_D2,D2_00511,glyph_swap,0.089,1-IoU,N->N in OpenSans-Bold,0.1122,none
+missed,test_D2,D2_00941,recolour,4.316,hue_deg,"+4.3 deg, deltaE 3.9",0.072,none
+missed,test_D2,D2_01137,recolour,4.641,hue_deg,"+4.6 deg, deltaE 4.2",0.1693,none
+missed,test_D2,D2_00495,respace,2.62,px,+2.6px,0.0882,none
+missed,test_D2,D2_00173,respace,1.021,px,-1.0px,0.1547,none
+missed,test_D2,D2_01041,respace,1.396,px,+1.4px,0.2842,none
+missed,test_D2,D2_00159,respace,2.388,px,-2.4px,0.3183,none
+missed,test_D2,D2_00743,stretch,6.065,percent,y -6.1%,0.0408,none
+missed,test_D2,D2_01443,stretch,7.307,percent,y +7.3%,0.0475,none
+missed,test_D2,D2_01023,stretch,2.374,percent,y +2.4%,0.0526,none
+missed,test_D2,D2_00575,stretch,2.763,percent,x +2.8%,0.0564,none
+missed,test_D2,D2_00197,stretch,1.527,percent,x +1.5%,0.0633,none
+missed,test_D2,D2_01373,stretch,1.194,percent,x +1.2%,0.151,none
+missed,test_D2,D2_00827,stretch,1.833,percent,y -1.8%,0.1715,none
+missed,test_D2,D2_00449,stretch,4.664,percent,x -4.7%,0.2096,none
+missed,test_D1,D1_00793,font_swap,0.0,width_pct,NotoSans-Bold->NotoSans-Bold-system,0.039,none
+missed,test_D1,D1_00371,glyph_swap,0.252,1-IoU,D->D in LiberationSans-Bold,0.0079,none
+missed,test_D1,D1_00035,glyph_swap,0.23,1-IoU,E->E in OpenSans-Bold,0.0338,none
+missed,test_D1,D1_01085,glyph_swap,0.826,1-IoU,I->1 in OpenSans-Bold,0.0373,none
+missed,test_D1,D1_01463,glyph_swap,0.045,1-IoU,H->H in OpenSans-Bold,0.208,none
+missed,test_D1,D1_00497,glyph_swap,0.64,1-IoU,N->M in NotoSans-Bold,0.3314,none
+missed,test_D1,D1_00969,recolour,4.129,hue_deg,"-4.1 deg, deltaE 3.6",0.0777,none
+missed,test_D1,D1_00003,recolour,5.684,hue_deg,"+5.7 deg, deltaE 5.1",0.1366,none
+missed,test_D1,D1_01417,recolour,4.09,hue_deg,"-4.1 deg, deltaE 3.6",0.1587,none
+missed,test_D1,D1_00283,recolour,3.534,hue_deg,"-3.5 deg, deltaE 3.2",0.2791,none
+missed,test_D1,D1_00929,respace,2.21,px,-2.2px,0.021,none
+missed,test_D1,D1_00649,respace,1.08,px,-1.1px,0.0259,none
+missed,test_D1,D1_00537,respace,1.18,px,-1.2px,0.0415,none
+missed,test_D1,D1_00215,respace,3.812,px,+3.8px,0.0654,none
+missed,test_D1,D1_00033,respace,3.274,px,+3.3px,0.0929,none
+missed,test_D1,D1_00551,respace,2.7,px,+2.7px,0.1264,none
+missed,test_D1,D1_00761,respace,1.898,px,-1.9px,0.2735,none
+missed,test_D1,D1_00817,respace,2.093,px,+2.1px,0.2827,none
+missed,test_D1,D1_00911,stretch,2.217,percent,y +2.2%,0.0299,none
+missed,test_D1,D1_01163,stretch,1.484,percent,y +1.5%,0.0551,none
+missed,test_unseen_font_D1,D1_00287,glyph_swap,0.232,1-IoU,H->H in OpenSans-Bold,0.3285,none
+missed,test_unseen_font_D1,D1_00157,recolour,3.149,hue_deg,"-3.1 deg, deltaE 2.7",0.0216,none
+missed,test_unseen_font_D1,D1_01095,recolour,3.957,hue_deg,"+4.0 deg, deltaE 3.6",0.1418,none
+missed,test_unseen_font_D1,D1_01375,recolour,8.375,hue_deg,"+8.4 deg, deltaE 7.9",0.2147,none
+missed,test_unseen_font_D1,D1_00579,respace,1.621,px,+1.6px,0.0392,none
+missed,test_unseen_font_D1,D1_01153,respace,2.692,px,-2.7px,0.1912,none
+false_alarms,test_D2,D2_00872,none,0.0,,,0.3877,none
+false_alarms,test_D2,D2_00764,none,0.0,,,0.4249,none
+false_alarms,test_D2,D2_00324,none,0.0,,,0.4833,none
+false_alarms,test_D2,D2_00494,none,0.0,,,0.4878,none
+false_alarms,test_D2,D2_01124,none,0.0,,,0.7261,respace
+false_alarms,test_D2,D2_00802,none,0.0,,,0.7771,recolour
+false_alarms,test_D1,D1_00374,none,0.0,,,0.3659,none
+false_alarms,test_D1,D1_00666,none,0.0,,,0.3964,none
+false_alarms,test_D1,D1_00706,none,0.0,,,0.4378,none
+false_alarms,test_D1,D1_00194,none,0.0,,,0.5083,none
+false_alarms,test_D1,D1_00386,none,0.0,,,0.519,none
+false_alarms,test_D1,D1_01040,none,0.0,,,0.6012,none
+false_alarms,test_D1,D1_00226,none,0.0,,,0.6402,none
+false_alarms,test_D1,D1_01292,none,0.0,,,0.6852,none
+false_alarms,test_D1,D1_01118,none,0.0,,,0.702,none
+false_alarms,test_D1,D1_00476,none,0.0,,,0.7506,respace
+false_alarms,test_D1,D1_01024,none,0.0,,,0.9154,respace
+false_alarms,test_unseen_font_D1,D1_00948,none,0.0,,,0.4402,none
+false_alarms,test_unseen_font_D1,D1_01452,none,0.0,,,0.4901,none
+false_alarms,test_unseen_font_D1,D1_01484,none,0.0,,,0.5174,respace
+false_alarms,test_unseen_font_D1,D1_00820,none,0.0,,,0.5846,none
+false_alarms,test_unseen_font_D1,D1_00362,none,0.0,,,0.6718,respace
+false_alarms,test_unseen_font_D1,D1_00312,none,0.0,,,0.7478,respace
+false_alarms,test_unseen_font_D1,D1_00844,none,0.0,,,0.792,recolour

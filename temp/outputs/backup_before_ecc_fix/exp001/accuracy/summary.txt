@@ -1,0 +1,88 @@
+samples: 300 (first D2 rows of data/synth) + 19 extra = the other photos that failed registration in registration_D2.csv
+rebuilt photo identical to the stored file: 319/319
+our raw RANSAC copy gives the same H as fit_homography: 296/296
+
+== success rate (main 300) ==
+passed the checks: 296/300 (98.7 %)
+  none        150/150
+  stretch      22/22
+  recolour     22/22
+  respace      22/22
+  glyph_swap   21/21
+  font_swap    20/21
+  overlap      21/21
+  cut          18/21
+
+== error of PASSED registrations vs ground truth (n=287, whole-logo stretches excluded) ==
+  max corner err, RANSAC only (photo px)     median   3.51  95th  19.79  max  110.25
+  max corner err, after ECC  (photo px)      median   0.30  95th  26.50  max  108.40
+  mean corner err, RANSAC only (photo px)    median   2.03  95th   9.59  max   51.57
+  mean corner err, after ECC  (photo px)     median   0.20  95th  16.23  max   51.70
+  ink err, RANSAC only (reference px)        median   1.32  95th   4.99  max   60.14
+  ink err, after ECC  (reference px)         median   0.10  95th   8.85  max   60.28
+  ECC reduced the corner error in 87 % of photos
+
+== same, after ECC, per group (max corner err photo px | ink err reference px) ==
+  genuine / local tamper   n=236  RANSAC median  3.18 | ECC median  0.26 95th   1.45 max   2.70 px | ink median  0.08 max  1.40
+  font_swap                n= 20  RANSAC median  5.31 | ECC median 22.55 95th  98.55 max 108.40 px | ink median  6.54 max 60.28
+  cut                      n= 18  RANSAC median  5.57 | ECC median 23.21 95th  87.54 max 107.80 px | ink median  7.59 max 17.75
+  part stretch             n= 13  RANSAC median 11.67 | ECC median  1.56 95th  14.00 max  14.72 px | ink median  0.73 max  2.45
+
+== does 'passed' mean 'correct'? (wrong = max corner error > 10 px) ==
+  RANSAC only: 44/287 passed-but-wrong: D2_00004 (none, 21.9 px, ink 5.66 ref px, 63 inl, ECC 0.986), D2_00033 (respace, 12.0 px, ink 2.80 ref px, 40 inl, ECC 0.9736), D2_00034 (none, 19.7 px, ink 6.55 ref px, 30 inl, ECC 0.979), D2_00042 (none, 13.9 px, ink 2.03 ref px, 70 inl, ECC 0.9912), D2_00043 (stretch, 10.0 px, ink 2.29 ref px, 105 inl, ECC 0.9648), D2_00051 (font_swap, 37.3 px, ink 10.25 ref px, 82 inl, ECC 0.8269), D2_00052 (none, 12.4 px, ink 2.39 ref px, 110 inl, ECC 0.9856), D2_00058 (none, 18.9 px, ink 5.19 ref px, 56 inl, ECC 0.9362), D2_00071 (stretch, 14.0 px, ink 3.15 ref px, 75 inl, ECC 0.9831), D2_00081 (overlap, 19.2 px, ink 3.70 ref px, 58 inl, ECC 0.9458), D2_00091 (glyph_swap, 18.6 px, ink 3.78 ref px, 39 inl, ECC 0.9608), D2_00093 (font_swap, 13.4 px, ink 3.72 ref px, 73 inl, ECC 0.5805), D2_00102 (none, 12.7 px, ink 5.06 ref px, 49 inl, ECC 0.9774), D2_00107 (font_swap, 73.8 px, ink 21.46 ref px, 48 inl, ECC 0.5527), D2_00111 (cut, 33.3 px, ink 8.52 ref px, 53 inl, ECC 0.4123), D2_00120 (none, 16.6 px, ink 4.84 ref px, 38 inl, ECC 0.9642), D2_00125 (cut, 25.1 px, ink 8.32 ref px, 23 inl, ECC 0.7203), D2_00130 (none, 51.7 px, ink 10.60 ref px, 16 inl, ECC 0.9829), D2_00152 (none, 11.3 px, ink 3.61 ref px, 40 inl, ECC 0.9817), D2_00155 (stretch, 12.7 px, ink 4.62 ref px, 65 inl, ECC 0.8897), D2_00163 (font_swap, 110.2 px, ink 60.14 ref px, 20 inl, ECC 0.5919), D2_00165 (overlap, 10.5 px, ink 2.29 ref px, 63 inl, ECC 0.9225), D2_00177 (font_swap, 12.6 px, ink 2.29 ref px, 67 inl, ECC 0.6139), D2_00179 (overlap, 13.0 px, ink 4.49 ref px, 39 inl, ECC 0.9708), D2_00181 (cut, 16.1 px, ink 1.96 ref px, 67 inl, ECC nan), D2_00185 (recolour, 19.8 px, ink 3.19 ref px, 66 inl, ECC 0.9854), D2_00191 (font_swap, 81.3 px, ink 21.65 ref px, 40 inl, ECC 0.8523), D2_00194 (none, 14.1 px, ink 2.32 ref px, 32 inl, ECC 0.9878), D2_00209 (cut, 10.8 px, ink 2.35 ref px, 77 inl, ECC 0.6247), D2_00211 (stretch, 11.7 px, ink 2.55 ref px, 40 inl, ECC 0.9893), D2_00217 (glyph_swap, 29.3 px, ink 4.55 ref px, 38 inl, ECC 0.936), D2_00225 (stretch, 24.7 px, ink 3.18 ref px, 97 inl, ECC 0.9419), D2_00237 (cut, 15.0 px, ink 1.79 ref px, 30 inl, ECC 0.529), D2_00240 (none, 10.2 px, ink 4.61 ref px, 25 inl, ECC 0.9301), D2_00251 (cut, 15.7 px, ink 2.75 ref px, 63 inl, ECC 0.2345), D2_00253 (stretch, 29.4 px, ink 6.54 ref px, 39 inl, ECC 0.9701), D2_00268 (none, 13.8 px, ink 3.01 ref px, 55 inl, ECC 0.985), D2_00274 (none, 28.5 px, ink 4.54 ref px, 21 inl, ECC 0.9369), D2_00276 (none, 14.5 px, ink 2.66 ref px, 65 inl, ECC 0.9841), D2_00281 (stretch, 12.7 px, ink 5.74 ref px, 21 inl, ECC 0.9312), D2_00289 (font_swap, 80.6 px, ink 50.70 ref px, 18 inl, ECC 0.8292), D2_00295 (stretch, 13.3 px, ink 1.46 ref px, 106 inl, ECC 0.9694), D2_00296 (none, 32.2 px, ink 8.45 ref px, 40 inl, ECC 0.9347), D2_00297 (recolour, 19.1 px, ink 3.49 ref px, 59 inl, ECC 0.9708)
+  after ECC: 34/287 passed-but-wrong: D2_00009 (font_swap, 19.9 px, ink 9.25 ref px, 53 inl, ECC 0.5241), D2_00013 (cut, 15.3 px, ink 6.83 ref px, 120 inl, ECC 0.4714), D2_00023 (font_swap, 82.3 px, ink 11.81 ref px, 34 inl, ECC 0.5727), D2_00037 (font_swap, 14.1 px, ink 6.57 ref px, 63 inl, ECC 0.5954), D2_00051 (font_swap, 98.0 px, ink 24.80 ref px, 82 inl, ECC 0.8269), D2_00069 (cut, 60.9 px, ink 16.31 ref px, 39 inl, ECC 0.5467), D2_00093 (font_swap, 12.8 px, ink 4.47 ref px, 73 inl, ECC 0.5805), D2_00107 (font_swap, 23.6 px, ink 9.48 ref px, 48 inl, ECC 0.5527), D2_00111 (cut, 22.2 px, ink 6.99 ref px, 53 inl, ECC 0.4123), D2_00121 (font_swap, 12.5 px, ink 3.53 ref px, 97 inl, ECC 0.6155), D2_00125 (cut, 26.9 px, ink 8.71 ref px, 23 inl, ECC 0.7203), D2_00135 (font_swap, 13.5 px, ink 4.66 ref px, 43 inl, ECC 0.5068), D2_00149 (font_swap, 34.1 px, ink 7.61 ref px, 82 inl, ECC 0.5792), D2_00163 (font_swap, 108.4 px, ink 60.28 ref px, 20 inl, ECC 0.5919), D2_00167 (cut, 16.3 px, ink 3.15 ref px, 48 inl, ECC 0.7504), D2_00177 (font_swap, 18.4 px, ink 3.63 ref px, 67 inl, ECC 0.6139), D2_00181 (cut, 16.1 px, ink 1.96 ref px, 67 inl, ECC nan), D2_00183 (stretch, 13.5 px, ink 2.35 ref px, 68 inl, ECC 0.9473), D2_00191 (font_swap, 59.2 px, ink 23.01 ref px, 40 inl, ECC 0.8523), D2_00195 (cut, 24.2 px, ink 17.74 ref px, 81 inl, ECC 0.3718), D2_00205 (font_swap, 21.5 px, ink 6.05 ref px, 79 inl, ECC 0.5455), D2_00209 (cut, 61.3 px, ink 14.71 ref px, 77 inl, ECC 0.6247), D2_00219 (font_swap, 27.8 px, ink 5.91 ref px, 56 inl, ECC 0.582), D2_00223 (cut, 25.9 px, ink 15.66 ref px, 66 inl, ECC 0.307), D2_00225 (stretch, 14.7 px, ink 2.45 ref px, 97 inl, ECC 0.9419), D2_00233 (font_swap, 42.2 px, ink 22.54 ref px, 49 inl, ECC 0.8364), D2_00237 (cut, 84.0 px, ink 17.75 ref px, 30 inl, ECC 0.529), D2_00251 (cut, 107.8 px, ink 16.25 ref px, 63 inl, ECC 0.2345), D2_00261 (font_swap, 14.2 px, ink 3.54 ref px, 91 inl, ECC 0.6198), D2_00265 (cut, 31.3 px, ink 8.91 ref px, 43 inl, ECC 0.707), D2_00275 (font_swap, 24.8 px, ink 6.51 ref px, 45 inl, ECC 0.5952), D2_00279 (cut, 11.3 px, ink 4.66 ref px, 60 inl, ECC 0.4792), D2_00289 (font_swap, 85.1 px, ink 48.44 ref px, 18 inl, ECC 0.8292), D2_00293 (cut, 26.8 px, ink 8.20 ref px, 46 inl, ECC 0.2495)
+  after ECC, ink misaligned by > 2 reference px: 37/287: D2_00009 (font_swap, 9.25), D2_00013 (cut, 6.83), D2_00023 (font_swap, 11.81), D2_00037 (font_swap, 6.57), D2_00041 (cut, 3.36), D2_00051 (font_swap, 24.80), D2_00065 (font_swap, 5.35), D2_00069 (cut, 16.31), D2_00079 (font_swap, 4.86), D2_00083 (cut, 4.62), D2_00093 (font_swap, 4.47), D2_00107 (font_swap, 9.48), D2_00111 (cut, 6.99), D2_00121 (font_swap, 3.53), D2_00125 (cut, 8.71), D2_00135 (font_swap, 4.66), D2_00149 (font_swap, 7.61), D2_00163 (font_swap, 60.28), D2_00167 (cut, 3.15), D2_00177 (font_swap, 3.63), D2_00183 (stretch, 2.35), D2_00191 (font_swap, 23.01), D2_00195 (cut, 17.74), D2_00205 (font_swap, 6.05), D2_00209 (cut, 14.71), D2_00219 (font_swap, 5.91), D2_00223 (cut, 15.66), D2_00225 (stretch, 2.45), D2_00233 (font_swap, 22.54), D2_00237 (cut, 17.75), D2_00251 (cut, 16.25), D2_00261 (font_swap, 3.54), D2_00265 (cut, 8.91), D2_00275 (font_swap, 6.51), D2_00279 (cut, 4.66), D2_00289 (font_swap, 48.44), D2_00293 (cut, 8.20)
+
+== would an ECC-score gate (>= 0.9) catch the wrong ones? ==
+  wrong after ECC: 34; of those, ECC < 0.9 (or failed): 32
+  wrong but ECC >= 0.9: D2_00183 (stretch tagline, ecc 0.9473), D2_00225 (stretch tagline, ecc 0.9419)
+  correct (<= 10 px) but ECC < 0.9: 14/253
+
+== whole-logo stretches (n=9): registration absorbs the stretch ==
+  D2_00015 x -2.8%    vs camera truth  16.81 px, vs stretched truth   0.15 px
+  D2_00029 x -3.9%    vs camera truth  24.19 px, vs stretched truth   0.32 px
+  D2_00057 x +6.2%    vs camera truth  49.31 px, vs stretched truth   0.88 px
+  D2_00099 x +3.2%    vs camera truth   9.84 px, vs stretched truth   0.59 px
+  D2_00113 x -5.1%    vs camera truth  23.17 px, vs stretched truth   0.09 px
+  D2_00141 x -2.9%    vs camera truth  22.41 px, vs stretched truth   0.08 px
+  D2_00197 x +1.5%    vs camera truth  15.31 px, vs stretched truth   0.54 px
+  D2_00239 x +1.1%    vs camera truth   6.05 px, vs stretched truth   0.21 px
+  D2_00267 x -2.5%    vs camera truth  16.48 px, vs stretched truth   0.37 px
+
+== failed registrations (all 23, incl. extra): would the crop have been wrong? ==
+  D2_00027 cut        12 inliers < 15        raw RANSAC corner err 67.55
+  D2_00055 cut        6 inliers < 15         raw RANSAC corner err 5164.42
+  D2_00139 cut        8 inliers < 15         raw RANSAC corner err 189.75
+  D2_00247 font_swap  13 inliers < 15        raw RANSAC corner err 82.67
+  D2_00475 cut        9 inliers < 15         raw RANSAC corner err 62.73
+  D2_00513 font_swap  12 inliers < 15        raw RANSAC corner err 47.59
+  D2_00559 cut        8 inliers < 15         raw RANSAC corner err 62590.84
+  D2_00587 cut        8 inliers < 15         raw RANSAC corner err 1000.01
+  D2_00655 overlap    13 inliers < 15        raw RANSAC corner err 16.34
+  D2_00656 none       12 inliers < 15        raw RANSAC corner err 10.42
+  D2_00685 cut        10 inliers < 15        raw RANSAC corner err 770.56
+  D2_00695 font_swap  10 inliers < 15        raw RANSAC corner err 95.46
+  D2_00796 none       11 inliers < 15        raw RANSAC corner err 27.26
+  D2_00823 overlap    11 inliers < 15        raw RANSAC corner err 5.22
+  D2_00933 font_swap  only 14 matches        raw RANSAC corner err 53.68
+  D2_00979 cut        7 inliers < 15         raw RANSAC corner err 7.57
+  D2_01161 cut        7 inliers < 15         raw RANSAC corner err 1030.88
+  D2_01270 none       11 inliers < 15        raw RANSAC corner err 10.76
+  D2_01301 cut        12 inliers < 15        raw RANSAC corner err 4.21
+  D2_01329 cut        11 inliers < 15        raw RANSAC corner err 184.96
+  D2_01385 cut        8 inliers < 15         raw RANSAC corner err 634.9
+  D2_01396 none       13 inliers < 15        raw RANSAC corner err 1428.27
+  D2_01398 none       8 inliers < 15         raw RANSAC corner err 4.26
+
+== inliers vs error (passed, after ECC, whole-logo stretches excluded) ==
+   15-30   inliers: n= 19  median 0.82  95th 87.39  max 108.40 px; genuine / local tamper only: n=14 max 2.05 px
+   30-50   inliers: n= 69  median 0.53  95th 52.41  max 83.96 px; genuine / local tamper only: n=51 max 2.70 px
+   50-80   inliers: n=129  median 0.29  95th 19.31  max 107.80 px; genuine / local tamper only: n=110 max 2.32 px
+   80-1000 inliers: n= 70  median 0.23  95th 15.03  max 98.03 px; genuine / local tamper only: n=61 max 2.10 px
+  failed photos whose rejected H was within 10 px anyway: 4/23
+  lowest inlier count among passed: 16; failed photos had 6, 7, 7, 8, 8, 8, 8, 8, 8, 9, 10, 10, 11, 11, 11, 11, 12, 12, 12, 12, 13, 13, 13 raw inliers
+
+== RANSAC settings ==
+EXP-001 call: cv2.findHomography(src, dst, cv2.RANSAC, ransacReprojThreshold=4.0)
+not passed, so OpenCV defaults apply: maxIters=2000, confidence=0.995
+(C++ signature in opencv2/calib3d.hpp: findHomography(src, dst, method=0, ransacReprojThreshold=3, mask=noArray(), maxIters=2000, confidence=0.995); OpenCV adapts the number of iterations to the inlier ratio, so 2000 is only the cap. Version used here: 5.0.0)

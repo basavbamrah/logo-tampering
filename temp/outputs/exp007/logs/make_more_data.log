@@ -1,0 +1,71 @@
+100/6000 samples
+200/6000 samples
+300/6000 samples
+400/6000 samples
+500/6000 samples
+600/6000 samples
+700/6000 samples
+800/6000 samples
+900/6000 samples
+1000/6000 samples
+1100/6000 samples
+1200/6000 samples
+1300/6000 samples
+1400/6000 samples
+1500/6000 samples
+1600/6000 samples
+1700/6000 samples
+1800/6000 samples
+1900/6000 samples
+2000/6000 samples
+2100/6000 samples
+2200/6000 samples
+2300/6000 samples
+2400/6000 samples
+2500/6000 samples
+2600/6000 samples
+2700/6000 samples
+2800/6000 samples
+2900/6000 samples
+3000/6000 samples
+3100/6000 samples
+3200/6000 samples
+3300/6000 samples
+3400/6000 samples
+3500/6000 samples
+3600/6000 samples
+3700/6000 samples
+3800/6000 samples
+3900/6000 samples
+4000/6000 samples
+4100/6000 samples
+4200/6000 samples
+4300/6000 samples
+4400/6000 samples
+4500/6000 samples
+4600/6000 samples
+4700/6000 samples
+4800/6000 samples
+4900/6000 samples
+5000/6000 samples
+5100/6000 samples
+5200/6000 samples
+5300/6000 samples
+5400/6000 samples
+5500/6000 samples
+5600/6000 samples
+5700/6000 samples
+5800/6000 samples
+5900/6000 samples
+6000/6000 samples
+done: 6000 samples in /home/valere/Desktop/temp/data/synth_more
+registered 2954/3000 synthetic NORVIA photos
+  cut          195/214 registered
+  font_swap    206/214 registered
+  glyph_swap   214/214 registered
+  none        1486/1500 registered
+  overlap      213/214 registered
+  recolour     213/215 registered
+  respace      213/214 registered
+  stretch      214/215 registered
+ALL DONE

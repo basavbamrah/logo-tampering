@@ -1,0 +1,169 @@
+run dino_base: train 2020 pairs (20 D2 skipped: not registered), device cuda
+dino_frozen: 1.04 M trainable parameters, input (448, 128)
+loaded 2020 training pairs into GPU (663 MB) in 3s
+epoch  1 | train loss 1.0873 | train AUC 0.7954 | val AUC 0.7669 acc 0.685 | test D2 AUC 0.7160 | unseen-font AUC 0.7263 | 8s, GPU 1619 MB
+epoch  2 | train loss 0.9115 | train AUC 0.8699 | val AUC 0.7828 acc 0.711 | test D2 AUC 0.7520 | unseen-font AUC 0.8146 | 8s, GPU 1619 MB
+epoch  3 | train loss 0.8130 | train AUC 0.9230 | val AUC 0.7503 acc 0.694 | test D2 AUC 0.7490 | unseen-font AUC 0.8222 | 8s, GPU 1619 MB
+epoch  4 | train loss 0.7521 | train AUC 0.9281 | val AUC 0.7777 acc 0.707 | test D2 AUC 0.7431 | unseen-font AUC 0.8216 | 8s, GPU 1619 MB
+epoch  5 | train loss 0.7057 | train AUC 0.9763 | val AUC 0.7468 acc 0.711 | test D2 AUC 0.7733 | unseen-font AUC 0.8400 | 8s, GPU 1619 MB
+epoch  6 | train loss 0.6210 | train AUC 0.9829 | val AUC 0.7484 acc 0.705 | test D2 AUC 0.7660 | unseen-font AUC 0.8462 | 8s, GPU 1619 MB
+epoch  7 | train loss 0.5532 | train AUC 0.9868 | val AUC 0.7174 acc 0.632 | test D2 AUC 0.7516 | unseen-font AUC 0.8290 | 8s, GPU 1619 MB
+epoch  8 | train loss 0.4912 | train AUC 0.9993 | val AUC 0.7539 acc 0.663 | test D2 AUC 0.7545 | unseen-font AUC 0.8539 | 8s, GPU 1619 MB
+epoch  9 | train loss 0.3881 | train AUC 0.9999 | val AUC 0.7567 acc 0.720 | test D2 AUC 0.7562 | unseen-font AUC 0.8519 | 8s, GPU 1619 MB
+epoch 10 | train loss 0.3340 | train AUC 1.0000 | val AUC 0.7517 acc 0.683 | test D2 AUC 0.7610 | unseen-font AUC 0.8535 | 8s, GPU 1619 MB
+epoch 11 | train loss 0.2664 | train AUC 1.0000 | val AUC 0.7548 acc 0.707 | test D2 AUC 0.7590 | unseen-font AUC 0.8527 | 8s, GPU 1619 MB
+epoch 12 | train loss 0.2311 | train AUC 1.0000 | val AUC 0.7539 acc 0.700 | test D2 AUC 0.7575 | unseen-font AUC 0.8474 | 8s, GPU 1619 MB
+epoch 13 | train loss 0.2080 | train AUC 1.0000 | val AUC 0.7513 acc 0.698 | test D2 AUC 0.7609 | unseen-font AUC 0.8453 | 8s, GPU 1619 MB
+epoch 14 | train loss 0.1952 | train AUC 1.0000 | val AUC 0.7537 acc 0.705 | test D2 AUC 0.7620 | unseen-font AUC 0.8498 | 8s, GPU 1619 MB
+epoch 15 | train loss 0.1918 | train AUC 1.0000 | val AUC 0.7508 acc 0.700 | test D2 AUC 0.7602 | unseen-font AUC 0.8453 | 8s, GPU 1619 MB
+best epoch 2 (val AUC 0.7828); threshold at 5 % false alarms = 0.5654
+{
+  "val_D1+D2": {
+    "n": 454,
+    "auc": 0.7827639751552795,
+    "accuracy_at_0.5": 0.711453744493392,
+    "false_alarm_rate_at_threshold": 0.05357142857142857,
+    "kind_accuracy_on_tampered": 0.39565217391304347,
+    "caught_per_tamper": {
+      "stretch": {
+        "n": 24,
+        "caught": 0.041666666666666664
+      },
+      "recolour": {
+        "n": 37,
+        "caught": 0.0
+      },
+      "respace": {
+        "n": 29,
+        "caught": 0.1724137931034483
+      },
+      "glyph_swap": {
+        "n": 39,
+        "caught": 0.05128205128205128
+      },
+      "font_swap": {
+        "n": 31,
+        "caught": 0.967741935483871
+      },
+      "overlap": {
+        "n": 36,
+        "caught": 1.0
+      },
+      "cut": {
+        "n": 34,
+        "caught": 1.0
+      }
+    }
+  },
+  "test_D2": {
+    "n": 206,
+    "auc": 0.752003771805752,
+    "accuracy_at_0.5": 0.7135922330097088,
+    "false_alarm_rate_at_threshold": 0.047619047619047616,
+    "kind_accuracy_on_tampered": 0.39603960396039606,
+    "caught_per_tamper": {
+      "stretch": {
+        "n": 15,
+        "caught": 0.13333333333333333
+      },
+      "recolour": {
+        "n": 13,
+        "caught": 0.0
+      },
+      "respace": {
+        "n": 22,
+        "caught": 0.09090909090909091
+      },
+      "glyph_swap": {
+        "n": 9,
+        "caught": 0.1111111111111111
+      },
+      "font_swap": {
+        "n": 14,
+        "caught": 1.0
+      },
+      "overlap": {
+        "n": 15,
+        "caught": 1.0
+      },
+      "cut": {
+        "n": 13,
+        "caught": 1.0
+      }
+    }
+  },
+  "test_D1": {
+    "n": 198,
+    "auc": 0.794016290726817,
+    "accuracy_at_0.5": 0.7424242424242424,
+    "false_alarm_rate_at_threshold": 0.05263157894736842,
+    "kind_accuracy_on_tampered": 0.39285714285714285,
+    "caught_per_tamper": {
+      "stretch": {
+        "n": 9,
+        "caught": 0.5555555555555556
+      },
+      "recolour": {
+        "n": 10,
+        "caught": 0.1
+      },
+      "respace": {
+        "n": 14,
+        "caught": 0.0
+      },
+      "glyph_swap": {
+        "n": 15,
+        "caught": 0.2
+      },
+      "font_swap": {
+        "n": 12,
+        "caught": 0.9166666666666666
+      },
+      "overlap": {
+        "n": 14,
+        "caught": 1.0
+      },
+      "cut": {
+        "n": 10,
+        "caught": 1.0
+      }
+    }
+  },
+  "test_unseen_font_D1": {
+    "n": 99,
+    "auc": 0.8146481178396072,
+    "accuracy_at_0.5": 0.7474747474747475,
+    "false_alarm_rate_at_threshold": 0.06382978723404255,
+    "kind_accuracy_on_tampered": 0.3076923076923077,
+    "caught_per_tamper": {
+      "stretch": {
+        "n": 9,
+        "caught": 0.5555555555555556
+      },
+      "recolour": {
+        "n": 11,
+        "caught": 0.09090909090909091
+      },
+      "respace": {
+        "n": 4,
+        "caught": 0.0
+      },
+      "glyph_swap": {
+        "n": 5,
+        "caught": 0.0
+      },
+      "font_swap": {
+        "n": 7,
+        "caught": 0.7142857142857143
+      },
+      "overlap": {
+        "n": 7,
+        "caught": 1.0
+      },
+      "cut": {
+        "n": 9,
+        "caught": 1.0
+      }
+    }
+  }
+}

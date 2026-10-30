@@ -1,0 +1,38 @@
+EXP-007 parameter counts, computed from src/models.py (python src/exp007_evidence.py)
+
+Per architecture (all parameters; 'trainable' = what the optimiser updates by default):
+  siamese_diff depth 1   total    455,497  = encoder   157,504 + compare  295,680 + heads 2,313
+  siamese_diff depth 2   total  1,128,521  = encoder   683,072 + compare  443,136 + heads 2,313
+  siamese_diff depth 3   total  3,523,145  = encoder 2,782,784 + compare  738,048 + heads 2,313
+  early_fusion           total 11,190,537  = ResNet-18 (6-ch conv1, no fc) 11,185,920 + heads 4,617
+  dino_frozen            total 22,676,361  = frozen ViT-S/14 21,641,088 + compare 1,032,960 + heads 2,313  (trainable 1,035,273)
+
+Measured tensor shapes (batch 1, input 3 x 128 x 448):
+  siamese_diff depth 1: encoder output (64, 32, 112), after compare (128, 16, 56), pooled 256 -> heads 1 + 8
+  early_fusion: 6-channel input -> ResNet-18 -> (512,) -> heads 1 + 8
+
+Trainable parameters per run (from each run's metrics.json / config.json):
+  run                  arch           options                        trainable       total
+  dino_base            dino_frozen    -                              1,035,273  22,676,361
+  ef_base              early_fusion   -                             11,190,537  11,190,537
+  norvia_448           siamese_diff   {'depth': 1, 'dropout': 0.0}     455,497     455,497
+  norvia_896           siamese_diff   {'depth': 1, 'dropout': 0.0}     455,497     455,497
+  sd_aug               siamese_diff   {'depth': 2, 'dropout': 0.0}   1,128,521   1,128,521
+  sd_base              siamese_diff   {'depth': 2}                   1,128,521   1,128,521
+  sd_base_cache        siamese_diff   {'depth': 2, 'dropout': 0.0}   1,128,521   1,128,521
+  sd_base_s1           siamese_diff   {'depth': 2, 'dropout': 0.0}   1,128,521   1,128,521
+  sd_base_s2           siamese_diff   {'depth': 2, 'dropout': 0.0}   1,128,521   1,128,521
+  sd_depth1            siamese_diff   {'depth': 1, 'dropout': 0.0}     455,497     455,497
+  sd_depth1_bin_s0     siamese_diff   {'depth': 1, 'dropout': 0.0}     455,497     455,497
+  sd_depth1_bin_s1     siamese_diff   {'depth': 1, 'dropout': 0.0}     455,497     455,497
+  sd_depth1_more       siamese_diff   {'depth': 1, 'dropout': 0.0}     455,497     455,497
+  sd_depth1_s1         siamese_diff   {'depth': 1, 'dropout': 0.0}     455,497     455,497
+  sd_depth1_s2         siamese_diff   {'depth': 1, 'dropout': 0.0}     455,497     455,497
+  sd_depth3            siamese_diff   {'depth': 3, 'dropout': 0.0}   3,523,145   3,523,145
+  sd_drop_wd           siamese_diff   {'depth': 2, 'dropout': 0.3}   1,128,521   1,128,521
+  sd_focal             siamese_diff   {'depth': 2, 'dropout': 0.0}   1,128,521   1,128,521
+  sd_freeze            siamese_diff   {'depth': 2, 'dropout': 0.0}     971,017   1,128,521
+  sd_kind0             siamese_diff   {'depth': 2, 'dropout': 0.0}   1,128,521   1,128,521
+  sd_kind1             siamese_diff   {'depth': 2, 'dropout': 0.0}   1,128,521   1,128,521
+  sd_lr1e-4            siamese_diff   {'depth': 2, 'dropout': 0.0}   1,128,521   1,128,521
+  sd_more              siamese_diff   {'depth': 2, 'dropout': 0.0}   1,128,521   1,128,521

@@ -1,0 +1,25 @@
+500/10000 samples
+1000/10000 samples
+1500/10000 samples
+2000/10000 samples
+2500/10000 samples
+3000/10000 samples
+3500/10000 samples
+4000/10000 samples
+4500/10000 samples
+5000/10000 samples
+5500/10000 samples
+6000/10000 samples
+6500/10000 samples
+7000/10000 samples
+7500/10000 samples
+8000/10000 samples
+8500/10000 samples
+9000/10000 samples
+9500/10000 samples
+10000/10000 samples
+done: 10000 samples in /home/valere/Desktop/temp/data/synth_v2; tamper types ['stretch', 'recolour', 'respace', 'glyph_swap', 'font_swap', 'overlap', 'cut']
+
+real	64m40.839s
+user	686m46.756s
+sys	80m52.601s

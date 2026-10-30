@@ -1,0 +1,13 @@
+{
+ "best_run": "e13_drop",
+ "settings": {
+  "wd": 0.01,
+  "dropout": 0.3,
+  "loss": "bce",
+  "smoothing": 0.0,
+  "augment": false,
+  "seed": 0
+ },
+ "val_auc": 0.7020716685330347,
+ "seed1_run": "e13_best_s1"
+}

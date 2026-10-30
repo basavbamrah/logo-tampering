@@ -1,0 +1,15 @@
+== real photos (rectified by EXP-001) ==
+max letter deviation px (half size): median 0.08, 90th pct 0.88, max 2.31  (n=49)
+largest deviations: 025=2.314, 021=1.918, 009=1.612, 016=1.453, 037=1.018, 030=0.845
+
+== synthetic NORVIA (known truth), crops: reg ==
+genuine          n=745  max_dev median 0.09  slope median +0.0000
+respace_word     n= 81  max_dev median 0.72  slope median +0.0001
+stretch_word_x   n= 10  max_dev median 0.62  slope median -0.0002
+genuine synthetic 95th pct of max_dev = 0.17 px; real photos above it: ['009', '011', '013', '016', '020', '021', '025', '030', '037', '041']
+AUC respace vs genuine on max_dev: 0.993
+error of the measured shift of the moved letter (half-size px): mean +0.06, std 0.68
+  true shift 1-2 px: n=34, detected (max_dev above genuine 95th pct): 97%
+  true shift 2-4 px: n=26, detected (max_dev above genuine 95th pct): 100%
+  true shift 4-6 px: n=21, detected (max_dev above genuine 95th pct): 100%
+AUC wordmark x-stretch vs genuine on |slope|: 0.896

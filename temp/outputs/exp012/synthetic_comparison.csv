@@ -1,0 +1,3 @@
+run,n_genuine,n_tampered,auc,false_alarms,caught_all,stretch,recolour,respace,glyph_swap,font_swap,overlap,cut,stretch_whole,stretch_part,genuine_pairs_genuine,genuine_pairs_don't know,genuine_pairs_tampered
+norvia_448,105,101,0.918,14/105,88/101,7/15,10/13,20/22,9/9,14/14,15/15,13/13,4/8,3/7,62,29,14
+exp012_raw,105,101,0.754,4/105,46/101,2/15,2/13,1/22,5/9,14/14,14/15,8/13,1/8,1/7,13,88,4

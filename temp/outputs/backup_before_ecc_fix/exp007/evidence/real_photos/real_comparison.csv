@@ -1,0 +1,51 @@
+image,ecc_corr,sd_base_saved_p,sd_base_saved_decision,sd_depth1_more_p,sd_depth1_more_kind,sd_depth1_more_decision,sd_more_p,sd_more_kind,sd_more_decision,ef_base_p,ef_base_kind,ef_base_decision,runs_saying_tampered
+001,0.9838,0.1155,don't know,0.1091,none,don't know,0.0875,none,don't know,0.1355,none,don't know,0/4
+002,0.9711,0.0959,genuine,0.1877,none,don't know,0.0766,none,genuine,0.4404,none,don't know,0/4
+003,0.9645,0.144,don't know,0.1714,none,don't know,0.1503,none,don't know,0.2225,none,don't know,0/4
+004,0.9859,0.2049,don't know,0.1323,none,don't know,0.0961,none,don't know,0.5459,none,don't know,0/4
+005,0.9686,0.1609,don't know,0.2337,none,don't know,0.8044,recolour,tampered,0.2644,none,don't know,1/4
+006,0.9869,0.1519,don't know,0.1853,none,don't know,0.1743,none,don't know,0.1757,none,don't know,0/4
+007,0.9634,0.2476,don't know,0.0691,none,genuine,0.1044,none,don't know,0.2695,none,don't know,0/4
+008,0.9889,0.1142,don't know,0.142,none,don't know,0.3241,none,don't know,0.2412,none,don't know,0/4
+009,0.9431,0.9491,tampered,0.9996,respace,tampered,0.9999,glyph_swap,tampered,0.9991,stretch,tampered,4/4
+010,0.9857,0.0989,genuine,0.1147,none,don't know,0.0976,none,don't know,0.1587,none,don't know,0/4
+011,0.937,0.925,tampered,0.9996,stretch,tampered,0.9991,stretch,tampered,1.0,stretch,tampered,4/4
+012,0.9274,0.2112,don't know,0.132,none,don't know,0.2655,none,don't know,0.4519,none,don't know,0/4
+013,0.6119,0.9982,tampered + flagged: logo partly outside the photo,1.0,cut,tampered + flagged: logo partly outside the photo,0.9993,cut,tampered + flagged: logo partly outside the photo,0.9999,cut,tampered + flagged: logo partly outside the photo,4/4
+014,0.9744,0.1195,don't know,0.0679,none,genuine,0.0524,none,genuine,0.3052,none,don't know,0/4
+015,0.9641,0.2211,don't know,0.4972,none,tampered,0.5925,none,tampered,0.5486,recolour,don't know,2/4
+016,0.5269,0.9953,tampered + flagged: logo partly outside the photo,0.9987,cut,tampered + flagged: logo partly outside the photo,0.9912,cut,tampered + flagged: logo partly outside the photo,1.0,cut,tampered + flagged: logo partly outside the photo,4/4
+017,0.978,0.1431,don't know,0.0972,none,don't know,0.5513,none,tampered,0.1193,none,don't know,1/4
+018,0.981,0.1368,don't know,0.1064,none,don't know,0.1371,none,don't know,0.1439,none,don't know,0/4
+019,0.9602,0.1652,don't know,0.3462,none,tampered,0.6979,recolour,tampered,0.955,recolour,tampered,3/4
+020,0.9479,0.8803,tampered,1.0,stretch,tampered,0.9996,stretch,tampered,0.9999,font_swap,tampered,4/4
+021,0.9012,0.9587,tampered,0.9998,font_swap,tampered,0.9999,respace,tampered,1.0,stretch,tampered,4/4
+022,0.9533,0.4154,tampered,0.3028,none,don't know,0.2097,none,don't know,0.6021,none,don't know,1/4
+023,0.9735,0.1545,don't know,0.0898,none,don't know,0.0733,none,genuine,0.7381,none,tampered,1/4
+024,0.9706,0.0871,genuine,0.1274,none,don't know,0.2222,none,don't know,0.1288,none,don't know,0/4
+025,0.9609,0.9576,tampered,0.9998,stretch,tampered,0.9999,respace,tampered,1.0,respace,tampered,4/4
+026,0.9796,0.1278,don't know,0.3002,none,don't know,0.3516,none,don't know,0.1948,none,don't know,0/4
+027,0.9814,0.7418,tampered,0.9985,recolour,tampered,0.9999,recolour,tampered,0.9999,recolour,tampered,4/4
+028,0.9878,0.9943,tampered,1.0,recolour,tampered,1.0,recolour,tampered,1.0,recolour,tampered,4/4
+029,nan,,flagged: can't register,,,flagged: can't register,,,flagged: can't register,,,flagged: can't register,0/4
+030,0.9506,0.9978,tampered,1.0,stretch,tampered,0.9979,stretch,tampered,1.0,respace,tampered,4/4
+031,0.9887,0.1062,genuine,0.0552,none,genuine,0.1749,none,don't know,0.225,none,don't know,0/4
+032,0.9899,0.1012,genuine,0.1421,none,don't know,0.124,none,don't know,0.3239,none,don't know,0/4
+033,0.978,0.9716,tampered,0.9998,recolour,tampered,0.9999,recolour,tampered,1.0,recolour,tampered,4/4
+034,0.9771,0.1912,don't know,0.0909,none,don't know,0.0959,none,don't know,0.132,none,don't know,0/4
+035,0.9877,0.1586,don't know,0.0844,none,don't know,0.0843,none,don't know,0.3855,none,don't know,0/4
+036,0.9858,0.1155,don't know,0.2713,none,don't know,0.7087,recolour,tampered,0.1058,none,genuine,1/4
+037,0.6897,0.9996,tampered + flagged: logo partly outside the photo,1.0,cut,tampered + flagged: logo partly outside the photo,0.9958,cut,tampered + flagged: logo partly outside the photo,1.0,cut,tampered + flagged: logo partly outside the photo,4/4
+038,0.986,0.977,tampered,0.9998,recolour,tampered,1.0,recolour,tampered,1.0,recolour,tampered,4/4
+039,0.992,0.0985,genuine,0.0873,none,don't know,0.0706,none,genuine,0.2028,none,don't know,0/4
+040,0.9875,0.1827,don't know,0.2812,none,don't know,0.1687,none,don't know,0.2341,none,don't know,0/4
+041,0.924,0.3302,don't know,1.0,stretch,tampered,0.9561,stretch,tampered,0.8916,stretch,tampered,3/4
+042,0.9205,0.0959,genuine,0.1053,none,don't know,0.1174,none,don't know,0.2392,none,don't know,0/4
+043,0.9892,0.5313,tampered,0.982,recolour,tampered,0.9901,recolour,tampered,0.9993,recolour,tampered,4/4
+044,0.9909,0.1048,genuine,0.0975,none,don't know,0.0848,none,don't know,0.2337,none,don't know,0/4
+045,0.9811,0.1188,don't know,0.0605,none,genuine,0.0989,none,don't know,0.1164,none,don't know,0/4
+046,0.988,0.1067,genuine,0.0814,none,don't know,0.0683,none,genuine,0.282,none,don't know,0/4
+047,0.9861,0.2491,don't know,0.4914,none,tampered,0.8138,none,tampered,0.4485,none,don't know,2/4
+048,0.9697,0.1027,genuine,0.1709,none,don't know,0.0688,none,genuine,0.2694,none,don't know,0/4
+049,0.9799,0.1675,don't know,0.0708,none,genuine,0.0585,none,genuine,0.179,none,don't know,0/4
+050,0.9636,0.1042,genuine,0.0653,none,genuine,0.0419,none,genuine,0.0293,none,genuine,0/4

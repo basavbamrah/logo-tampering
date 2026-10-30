@@ -1,0 +1,51 @@
+image,norvia_448_p,norvia_448_decision,exp012_raw_p,exp012_raw_decision
+001,0.1824,don't know,0.3471,don't know
+002,0.159,genuine,0.4102,don't know
+003,0.2283,don't know,0.2692,don't know
+004,0.2585,don't know,0.3934,don't know
+005,0.1593,genuine,0.1427,don't know
+006,0.1739,don't know,0.1701,don't know
+007,0.1652,genuine,0.3437,don't know
+008,0.1195,genuine,0.5591,don't know
+009,0.9994,tampered,0.7594,tampered
+010,0.2294,don't know,0.2348,don't know
+011,0.9998,tampered,0.3329,don't know
+012,0.1725,don't know,0.0896,genuine
+013,0.9992,tampered,0.3784,don't know
+014,0.1487,genuine,0.1399,don't know
+015,0.1806,don't know,0.663,tampered
+016,0.9942,tampered,0.9285,tampered
+017,0.1699,don't know,0.1585,don't know
+018,0.1974,don't know,0.2751,don't know
+019,0.2212,don't know,0.2675,don't know
+020,0.9987,tampered,0.4838,don't know
+021,0.9996,tampered,0.4511,don't know
+022,0.2259,don't know,0.5255,don't know
+023,0.2422,don't know,0.4541,don't know
+024,0.127,genuine,0.3156,don't know
+025,0.9998,tampered,0.5642,don't know
+026,0.2229,don't know,0.5817,don't know
+027,0.7899,tampered,0.3088,don't know
+028,0.9987,tampered,0.5939,don't know
+029,,can't register,,can't register
+030,0.9995,tampered,0.1713,don't know
+031,0.1577,genuine,0.2616,don't know
+032,0.1141,genuine,0.7112,tampered
+033,0.9882,tampered,0.1948,don't know
+034,0.1952,don't know,0.3812,don't know
+035,0.3428,tampered,0.2308,don't know
+036,0.2295,don't know,0.2026,don't know
+037,0.9997,tampered,0.908,tampered
+038,0.9288,tampered,0.554,don't know
+039,0.0683,genuine,0.2805,don't know
+040,0.0903,genuine,0.4245,don't know
+041,0.9974,tampered,0.1402,don't know
+042,0.1257,genuine,0.3894,don't know
+043,0.4041,tampered,0.5469,don't know
+044,0.1304,genuine,0.7383,tampered
+045,0.1504,genuine,0.1913,don't know
+046,0.113,genuine,0.2658,don't know
+047,0.1149,genuine,0.2351,don't know
+048,0.0877,genuine,0.31,don't know
+049,0.1432,genuine,0.1813,don't know
+050,0.2542,don't know,0.1894,don't know

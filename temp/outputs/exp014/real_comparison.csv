@@ -1,0 +1,51 @@
+image,e14_consistent_p,e14_consistent_decision,sd_depth1_more_p,sd_depth1_more_decision
+001,0.1166,don't know,0.1091,don't know
+002,0.0914,don't know,0.1877,don't know
+003,0.1725,don't know,0.1714,don't know
+004,0.2737,don't know,0.1323,don't know
+005,0.0353,genuine,0.2337,don't know
+006,0.2804,don't know,0.1853,don't know
+007,0.0698,don't know,0.0691,genuine
+008,0.0534,don't know,0.142,don't know
+009,0.9994,tampered,0.9996,tampered
+010,0.1416,don't know,0.1147,don't know
+011,0.9993,tampered,0.9996,tampered
+012,0.1746,don't know,0.132,don't know
+013,1.0,tampered,1.0,tampered
+014,0.0494,genuine,0.0679,genuine
+015,0.1182,don't know,0.4972,tampered
+016,1.0,tampered,1.0,tampered
+017,0.0662,don't know,0.0972,don't know
+018,0.0835,don't know,0.1064,don't know
+019,0.0698,don't know,0.3462,tampered
+020,0.9987,tampered,1.0,tampered
+021,1.0,tampered,1.0,tampered
+022,0.4037,don't know,0.3028,don't know
+023,0.3303,don't know,0.0898,don't know
+024,0.0684,don't know,0.1274,don't know
+025,0.9994,tampered,0.9998,tampered
+026,0.0885,don't know,0.3002,don't know
+027,0.9912,tampered,0.9985,tampered
+028,1.0,tampered,1.0,tampered
+029,,can't register,,can't register
+030,0.9995,tampered,1.0,tampered
+031,0.3749,don't know,0.0552,genuine
+032,0.0651,don't know,0.1421,don't know
+033,1.0,tampered,0.9998,tampered
+034,0.0781,don't know,0.0909,don't know
+035,0.3341,don't know,0.0844,don't know
+036,0.0822,don't know,0.2713,don't know
+037,1.0,tampered,1.0,tampered
+038,0.9997,tampered,0.9998,tampered
+039,0.0595,don't know,0.0873,don't know
+040,0.1524,don't know,0.2812,don't know
+041,0.9998,tampered,1.0,tampered
+042,0.0838,don't know,0.1053,don't know
+043,0.8922,tampered,0.9819,tampered
+044,0.0538,don't know,0.0975,don't know
+045,0.1238,don't know,0.0605,genuine
+046,0.0547,don't know,0.0814,don't know
+047,0.0652,don't know,0.4914,tampered
+048,0.0934,don't know,0.1709,don't know
+049,0.1308,don't know,0.0708,genuine
+050,0.3616,don't know,0.0653,genuine

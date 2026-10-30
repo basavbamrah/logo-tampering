@@ -1,0 +1,16 @@
+== real photos: solved focal length / image side ==
+solved for 11/49 photos (the rest fell back to a default); median 2.01, 10-90th pct 1.65-3.21
+
+== synthetic: error of the implied stretch (estimate - truth) ==
+genuine (n=150)
+  focal = solved : mean +0.020  std 0.092  robust std 0.037  max abs 0.442
+  focal = median : mean +0.017  std 0.056  robust std 0.040  max abs 0.213
+  focal = oracle : mean +0.003  std 0.042  robust std 0.032  max abs 0.125
+whole-logo x-stretch (n=36)
+  focal = solved : mean +0.042  std 0.126  robust std 0.045  max abs 0.647
+  focal = median : mean +0.020  std 0.049  robust std 0.028  max abs 0.117
+  focal = oracle : mean +0.006  std 0.041  robust std 0.029  max abs 0.101
+correlation(true, estimate), focal = solved: 0.536
+correlation(true, estimate), focal = median: 0.745
+correlation(true, estimate), focal = oracle: 0.692
+genuine photos where the solved estimate is off by >10%: 21/150; their median |yaw| 25.8 deg vs all 9.6 deg; median |pitch| 5.0 vs 6.5

@@ -1,0 +1,3 @@
+D2 photos (render 1024x1024) that see past the artwork edge: 1022/1500
+... and show reflected logo ink: 286/1500; more than 2000 px of ink: 213/1500
+examples: D2_00531, D2_00587, D2_00811, D2_01301, D2_00055, D2_01138, D2_01270, D2_00475

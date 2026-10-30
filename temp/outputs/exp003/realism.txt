@@ -1,0 +1,12 @@
+== 1. Does registration behave like on the real photos? ==
+real      : registered 49/50  inliers n=49 median=61.000 mean=64.551 std=19.455 min=34.000 max=124.000
+synthetic : registered 4/4  inliers n=4 median=85.500 mean=87.250 std=26.574 min=59.000 max=119.000
+real      reproj err px n=49 median=1.115 mean=1.078 std=0.268 min=0.501 max=1.500
+synthetic reproj err px n=4 median=0.891 mean=0.887 std=0.234 min=0.580 max=1.188
+
+== 2. Noise floor of the implied stretch (should be 1.0 for genuine) ==
+real photos (unknown mix of genuine/tampered): n=49 median=1.002 mean=0.997 std=0.031 min=0.902 max=1.058
+synthetic GENUINE photos                     : n=4 median=1.011 mean=1.011 std=0.020 min=0.986 max=1.035
+
+== 3. Does the estimate follow a known whole-logo stretch? ==
+whole-logo x-stretches registered: 0/0

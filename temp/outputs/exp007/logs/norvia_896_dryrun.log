@@ -1,0 +1,7 @@
+run siamese_diff_20261010_173614: train 3982 pairs (66 D2 skipped: not registered), device cuda
+siamese_diff: 0.46 M trainable parameters, input (896, 256)
+loaded 3982 training pairs into CPU (pinned) (5226 MB) in 15s
+dry-run batch 0: ref (16, 3, 256, 896) loss 3.838
+dry-run batch 1: ref (16, 3, 256, 896) loss 2.763
+peak GPU memory: 1601 MB
+dry-run OK (no weights were updated, nothing saved)

@@ -1,0 +1,168 @@
+001: registered=True inliers=47 err=1.238 ecc=0.9838 stretch=0.7194 square_px=0.9563
+002: registered=True inliers=61 err=1.263 ecc=0.9711 stretch=1.3245 square_px=1.0016
+003: registered=True inliers=54 err=1.065 ecc=0.9645 stretch=1.3059 square_px=0.9795
+004: registered=True inliers=48 err=1.5 ecc=0.9859 stretch=0.7568 square_px=1.0079
+005: registered=True inliers=117 err=0.607 ecc=0.9686 stretch=1.0003 square_px=1.0003
+006: registered=True inliers=73 err=1.172 ecc=0.9869 stretch=0.7662 square_px=1.0166
+007: registered=True inliers=93 err=0.56 ecc=0.9634 stretch=0.9866 square_px=0.9866
+008: registered=True inliers=124 err=0.501 ecc=0.9889 stretch=0.9913 square_px=0.9913
+009: registered=True inliers=55 err=1.405 ecc=0.9431 stretch=0.7362 square_px=0.9758
+010: registered=True inliers=71 err=0.928 ecc=0.9857 stretch=0.765 square_px=1.0183
+011: registered=True inliers=69 err=1.485 ecc=0.937 stretch=0.7942 square_px=1.0551
+012: registered=True inliers=41 err=1.08 ecc=0.9274 stretch=0.6908 square_px=0.9191
+013: registered=True inliers=57 err=0.901 ecc=0.9479 stretch=1.3184 square_px=0.9905
+014: registered=True inliers=70 err=0.58 ecc=0.9744 stretch=0.9897 square_px=0.9897
+015: registered=True inliers=50 err=1.139 ecc=0.9641 stretch=0.7508 square_px=0.9957
+016: registered=True inliers=64 err=1.005 ecc=0.9911 stretch=0.775 square_px=1.0333
+017: registered=True inliers=89 err=0.679 ecc=0.978 stretch=1.0149 square_px=1.0149
+018: registered=True inliers=61 err=0.975 ecc=0.981 stretch=0.7601 square_px=0.985
+019: registered=True inliers=52 err=1.31 ecc=0.9602 stretch=1.3412 square_px=1.0063
+020: registered=True inliers=96 err=0.961 ecc=0.9479 stretch=0.9023 square_px=0.9023
+021: registered=True inliers=93 err=0.511 ecc=0.9842 stretch=0.9942 square_px=0.9942
+022: registered=True inliers=53 err=1.072 ecc=0.9533 stretch=0.7638 square_px=1.0163
+023: registered=True inliers=49 err=1.202 ecc=0.9735 stretch=0.7819 square_px=1.0416
+024: registered=True inliers=61 err=1.131 ecc=0.9706 stretch=0.7427 square_px=0.9872
+025: registered=True inliers=54 err=1.033 ecc=0.9609 stretch=0.7615 square_px=1.0073
+026: registered=True inliers=69 err=1.089 ecc=0.9796 stretch=0.7905 square_px=1.0389
+027: registered=True inliers=87 err=0.604 ecc=0.9814 stretch=1.0125 square_px=1.0125
+028: registered=True inliers=36 err=1.13 ecc=0.9878 stretch=1.3763 square_px=1.0327
+029: registered=False inliers=9 err=0.565 ecc=nan stretch=nan square_px=nan
+030: registered=True inliers=70 err=1.001 ecc=0.9506 stretch=0.69 square_px=0.9226
+031: registered=True inliers=65 err=1.022 ecc=0.9887 stretch=0.7645 square_px=1.0186
+032: registered=True inliers=71 err=1.058 ecc=0.9899 stretch=0.7789 square_px=1.0322
+033: registered=True inliers=97 err=0.512 ecc=0.978 stretch=1.0185 square_px=1.0185
+034: registered=True inliers=34 err=1.323 ecc=0.9771 stretch=1.3524 square_px=1.0146
+035: registered=True inliers=56 err=1.051 ecc=0.9877 stretch=0.7349 square_px=0.978
+036: registered=True inliers=35 err=1.168 ecc=0.9858 stretch=1.3753 square_px=1.0318
+037: registered=True inliers=66 err=1.282 ecc=0.9898 stretch=0.7567 square_px=1.0051
+038: registered=True inliers=69 err=1.313 ecc=0.986 stretch=0.7465 square_px=0.9944
+039: registered=True inliers=57 err=1.181 ecc=0.992 stretch=1.273 square_px=0.9584
+040: registered=True inliers=68 err=1.396 ecc=0.9875 stretch=0.7529 square_px=1.0032
+041: registered=True inliers=37 err=1.383 ecc=0.924 stretch=1.0025 square_px=1.0025
+042: registered=True inliers=45 err=1.201 ecc=0.9205 stretch=0.7529 square_px=1.002
+043: registered=True inliers=69 err=1.482 ecc=0.9892 stretch=0.7519 square_px=1.0023
+044: registered=True inliers=68 err=1.366 ecc=0.9909 stretch=0.7455 square_px=0.9936
+045: registered=True inliers=61 err=1.115 ecc=0.9811 stretch=0.7453 square_px=0.9932
+046: registered=True inliers=60 err=1.081 ecc=0.988 stretch=1.3111 square_px=0.985
+047: registered=True inliers=68 err=1.211 ecc=0.9861 stretch=1.2761 square_px=0.9589
+048: registered=True inliers=80 err=1.351 ecc=0.9697 stretch=0.7405 square_px=0.9817
+049: registered=True inliers=52 err=1.072 ecc=0.9799 stretch=0.7524 square_px=1.0044
+050: registered=True inliers=41 err=1.143 ecc=0.9636 stretch=1.2881 square_px=0.969
+
+registered 49/50 images; results in /home/valere/Desktop/temp/outputs/exp001
+image   cut%        icon        word     tagline   (missing/extra % of that part's ink)
+041      0.0   0.0/2.7     0.0/1.8     0.0/16.1 
+009      0.0   0.0/0.4     2.5/2.7     0.1/0.4  
+011      0.0   1.7/3.5     1.9/2.9     0.8/2.5  
+030      0.0   0.0/0.0     0.4/2.7     1.8/3.2  
+025      0.0   0.3/0.2     1.1/2.2     0.0/0.2  
+020      0.0   0.0/0.0     1.1/0.5     0.6/1.5  
+013      5.5   0.0/0.0     0.0/0.0     0.0/0.0  
+016     11.9   0.0/0.0     0.0/0.0     0.0/0.0  
+037      2.4   0.0/0.0     0.0/0.0     0.0/0.0  
+001      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+002      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+003      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+004      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+005      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+006      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+007      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+008      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+010      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+012      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+014      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+015      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+017      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+018      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+019      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+021      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+022      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+023      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+024      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+026      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+027      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+028      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+031      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+032      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+033      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+034      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+035      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+036      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+038      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+039      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+040      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+042      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+043      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+044      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+045      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+046      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+047      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+048      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+049      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+050      0.0   0.0/0.0     0.0/0.0     0.0/0.0  
+== real photos (rectified by EXP-001) ==
+max letter deviation px (half size): median 0.07, 90th pct 0.46, max 2.31  (n=49)
+largest deviations: 025=2.314, 009=1.612, 030=0.845, 041=0.61, 020=0.5, 011=0.447
+
+== synthetic NORVIA (known truth), crops: reg ==
+genuine          n=745  max_dev median 0.09  slope median +0.0000
+respace_word     n= 81  max_dev median 0.72  slope median +0.0001
+stretch_word_x   n= 10  max_dev median 0.62  slope median -0.0002
+genuine synthetic 95th pct of max_dev = 0.17 px; real photos above it: ['009', '011', '020', '025', '030', '041']
+AUC respace vs genuine on max_dev: 0.993
+error of the measured shift of the moved letter (half-size px): mean +0.06, std 0.68
+  true shift 1-2 px: n=34, detected (max_dev above genuine 95th pct): 97%
+  true shift 2-4 px: n=26, detected (max_dev above genuine 95th pct): 100%
+  true shift 4-6 px: n=21, detected (max_dev above genuine 95th pct): 100%
+AUC wordmark x-stretch vs genuine on |slope|: 0.896
+== synthetic NORVIA (F12 crops): 745 genuine, 107 recolour ==
+method     AUC  thr(95% genuine)   caught by hue shift: 3-6 / 6-10 / 10-15 deg   whole-logo / one-part
+raw      0.654             18.43   7% (n=57) / 0% (n=23) / 7% (n=27)   7% / 4%
+paper    0.536             32.84   4% (n=57) / 4% (n=23) / 7% (n=27)   5% / 4%
+hue      0.813              9.64   12% (n=57) / 39% (n=23) / 85% (n=27)   41% / 31%
+
+== real photos (n=49); reference ink hue per part: {'icon': 153.0, 'word': 153.0, 'tagline': 153.3} ==
+raw     flags  1: ['038']
+paper   flags  0: []
+hue     flags  4: ['022', '028', '033', '038']
+model's 'recolour' candidates: 027 raw 10.65 paper 14.31 hue 8.51 (hues 161.5/161.2/161.1); 028 raw 10.87 paper 14.22 hue 12.46 (hues 141.0/140.5/141.1); 033 raw 6.25 paper 8.27 hue 11.29 (hues 142.9/142.2/142.0); 038 raw 18.82 paper 14.3 hue 15.73 (hues 168.4/168.7/167.6)
+real hue difference: median 4.02, 90th pct 8.67; synthetic genuine: median 3.07, 90th pct 7.80
+
+== e14_consistent (siamese_diff, val AUC 0.933; tampered if p_mean >= 0.493, genuine if <= 0.053)
+   decisions: {"don't know": 32, 'genuine': 2, 'tampered': 15, "flagged: can't register": 1}
+   013  p_mean    1.0  (refs 1.0, 1.0, 1.0)  cut        tampered + flagged: logo partly outside the photo (5.5 % of the ink)
+   016  p_mean    1.0  (refs 1.0, 1.0, 1.0)  cut        tampered + flagged: logo partly outside the photo (11.9 % of the ink)
+   021  p_mean    1.0  (refs 1.0, 1.0, 1.0)  cut        tampered
+   028  p_mean    1.0  (refs 1.0, 1.0, 1.0)  recolour   tampered
+   033  p_mean    1.0  (refs 0.9999, 1.0, 0.9999)  recolour   tampered
+   037  p_mean    1.0  (refs 1.0, 1.0, 1.0)  cut        tampered + flagged: logo partly outside the photo (2.4 % of the ink)
+   041  p_mean 0.9998  (refs 0.9999, 0.9999, 0.9997)  stretch    tampered
+   038  p_mean 0.9997  (refs 0.9999, 0.9997, 0.9996)  recolour   tampered
+   030  p_mean 0.9995  (refs 0.9995, 0.9996, 0.9995)  stretch    tampered
+   009  p_mean 0.9994  (refs 0.9995, 0.9995, 0.9992)  font_swap  tampered
+   025  p_mean 0.9994  (refs 0.9995, 0.9994, 0.9993)  font_swap  tampered
+   011  p_mean 0.9993  (refs 0.9995, 0.9994, 0.999)  stretch    tampered
+
+summary over 1 run(s): /home/valere/Desktop/temp/outputs/exp007/real_summary.csv
+# Final results on the 50 real photos (generated by `src/final_report.py`)
+
+Model: `e14_consistent`. No ground truth exists for these photos: this lists evidence, not verified answers.
+Thresholds: cut-off > 1 % of the ink outside the photo; difference map > 1 %; letter shift > 0.17 half-size px (95th percentile of genuine synthetic); colour = EXP-005 hue flag; model = its own validation thresholds.
+
+| evidence | photos |
+|---|---|
+| difference map; letter shift; model | 009 011 020 025 030 041 |
+| colour; model | 028 033 038 |
+| cut-off; model | 013 016 037 |
+| can't register | 029 |
+| colour | 022 |
+| model | 021 027 043 |
+| none | 001 002 003 004 005 006 007 008 010 012 014 015 017 018 019 023 024 026 031 032 034 035 036 039 040 042 044 045 046 047 048 049 050 |
+
+Model decisions: tampered 15, don't know 32, genuine 2, flagged: can't register 1
+
+Files: `final_results.csv` (one row per photo, all numbers), `model_heatmaps_sheet.jpg`; per-method details in `outputs/exp001`, `exp005`, `exp008`, `exp010`, `exp007/<model>/`.
+
+real	0m36.690s
+user	1m42.401s
+sys	1m0.355s
